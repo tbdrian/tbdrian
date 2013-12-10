@@ -119,11 +119,11 @@ define("ATAG_EXIST","قبلا ثبت شده");
 define("ANAME_EXIST","قبلا ثبت شده");
 
 
-//BUILD.TPL
-define("CUR_PROD","تولیدات فعلی");
+//BUILD.TPL ~whcool
+define("CUR_PROD","Pembalakan");
 define("NEXT_PROD","تولیدات در سطح ");
-define("BUILDING_UPGRADING","ساختمان:");
-define("HOURS","ساعت");
+define("BUILDING_UPGRADING","Bangunan:");
+define("HOURS","Masa");
 
 
 //WARSIM.TPL
