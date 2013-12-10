@@ -73,20 +73,20 @@ if($message->unread) {
 							<div class="contentTitle">&nbsp;</div>
 <div class="contentContainer">
 <div id="content"  class="warsim">
-<h1>شبیه ساز جنگی</h1>
+<h1>Simulasi peperangan</h1>
 <form action="warsim.php" method="post">
 <?php
 if(isset($_POST['result'])) {
     $target = isset($_POST['target'])? $_POST['target'] : array();
     $tribe = isset($_POST['mytribe'])? $_POST['mytribe'] : $session->tribe;
-    echo '<h4 class="round">نوع حمله: ';
-    echo $form->getValue('ktyp') == 0? "عادی" : "غارت";
+    echo '<h4 class="round">Jenis serangan: ';
+    echo $form->getValue('ktyp') == 0? "Normal" : "Serbuan";
     echo "</h4>";
     include("Templates/Simulator/res_a".$tribe.".tpl");
     foreach($target as $tar) {
         include("Templates/Simulator/res_d".$tar.".tpl");
     }
-    echo '<h4 class="round">تنظیمات حمله</h4>';
+    echo '<h4 class="round">Tetapan serangan</h4>';
     if (isset($_POST['result'][3])&&isset($_POST['result'][4])){
         if ($_POST['result'][4]>$_POST['result'][3]){
             echo "";
@@ -105,7 +105,7 @@ $target = isset($_POST['target'])? $_POST['target'] : array();
 $tribe = isset($_POST['mytribe'])? $_POST['mytribe'] : $session->tribe;
 if(count($target) > 0) {
     include("Templates/Simulator/att_".$tribe.".tpl");
-	echo '<div id="defender"><div class="fighterType"><div class="boxes boxesColor green"><div class="boxes-tl"></div><div class="boxes-tr"></div><div class="boxes-tc"></div><div class="boxes-ml"></div><div class="boxes-mr"></div><div class="boxes-mc"></div><div class="boxes-bl"></div><div class="boxes-br"></div><div class="boxes-bc"></div><div class="boxes-contents">مدافع</div></div></div><div class="clear"></div>';
+	echo '<div id="defender"><div class="fighterType"><div class="boxes boxesColor green"><div class="boxes-tl"></div><div class="boxes-tr"></div><div class="boxes-tc"></div><div class="boxes-ml"></div><div class="boxes-mr"></div><div class="boxes-mc"></div><div class="boxes-bl"></div><div class="boxes-br"></div><div class="boxes-bc"></div><div class="boxes-contents">Pembela</div></div></div><div class="clear"></div>';
 
     foreach($target as $tar) {
         include("Templates/Simulator/def_".$tar.".tpl");
@@ -119,44 +119,44 @@ if(count($target) > 0) {
 			<tr>
 				<td>
 					<div class="fighterType">
-						<div class="boxes boxesColor red"><div class="boxes-tl"></div><div class="boxes-tr"></div><div class="boxes-tc"></div><div class="boxes-ml"></div><div class="boxes-mr"></div><div class="boxes-mc"></div><div class="boxes-bl"></div><div class="boxes-br"></div><div class="boxes-bc"></div><div class="boxes-contents">حمله کننده	</div>
+						<div class="boxes boxesColor red"><div class="boxes-tl"></div><div class="boxes-tr"></div><div class="boxes-tc"></div><div class="boxes-ml"></div><div class="boxes-mr"></div><div class="boxes-mc"></div><div class="boxes-bl"></div><div class="boxes-br"></div><div class="boxes-bc"></div><div class="boxes-contents">Penyerang	</div>
 				</div>
 					</div>
 					<div class="clear"></div>
 
 					<div class="choice">
-                    <label><input class="radio" type="radio" name="a1_v" value="1" <?php if($tribe == 1) { echo "checked"; } ?>> رومی‌ها</label><br/>
-        <label><input class="radio" type="radio" name="a1_v" value="2" <?php if($tribe == 2) { echo "checked"; } ?>> توتن‌ها </label><br/>
-        <label><input class="radio" type="radio" name="a1_v" value="3" <?php if($tribe == 3) { echo "checked"; } ?>> گول‌ها</label>
+                    <label><input class="radio" type="radio" name="a1_v" value="1" <?php if($tribe == 1) { echo "checked"; } ?>> Rom</label><br/>
+        <label><input class="radio" type="radio" name="a1_v" value="2" <?php if($tribe == 2) { echo "checked"; } ?>> Teuton </label><br/>
+        <label><input class="radio" type="radio" name="a1_v" value="3" <?php if($tribe == 3) { echo "checked"; } ?>> Gaul</label>
 					</div>
 				</td>
 
 				<td>
 					<div class="fighterType">
-						<div class="boxes boxesColor green"><div class="boxes-tl"></div><div class="boxes-tr"></div><div class="boxes-tc"></div><div class="boxes-ml"></div><div class="boxes-mr"></div><div class="boxes-mc"></div><div class="boxes-bl"></div><div class="boxes-br"></div><div class="boxes-bc"></div><div class="boxes-contents">مدافع	</div>
+						<div class="boxes boxesColor green"><div class="boxes-tl"></div><div class="boxes-tr"></div><div class="boxes-tc"></div><div class="boxes-ml"></div><div class="boxes-mr"></div><div class="boxes-mc"></div><div class="boxes-bl"></div><div class="boxes-br"></div><div class="boxes-bc"></div><div class="boxes-contents">Pembela	</div>
 				</div>
 					</div>
 					<div class="clear"></div>
 
 					<div class="choice">
-						<label><input class="check" type="checkbox" name="a2_v1" value="1" <?php if(in_array(1,$target)) { echo "checked"; } ?>> رومی‌ها</label><br>
-						<label><input class="check" type="checkbox" name="a2_v2" value="1" <?php if(in_array(2,$target)) { echo "checked"; } ?>> توتن‌ها</label><br>
-						<label><input class="check" type="checkbox" name="a2_v3" value="1" <?php if(in_array(3,$target)) { echo "checked"; } ?>> گول‌ها</label><br>
-						<label><input class="check" type="checkbox" name="a2_v4" value="1" <?php if(in_array(4,$target)) { echo "checked"; } ?>> طبیعت</label>
+						<label><input class="check" type="checkbox" name="a2_v1" value="1" <?php if(in_array(1,$target)) { echo "checked"; } ?>> Rom</label><br>
+						<label><input class="check" type="checkbox" name="a2_v2" value="1" <?php if(in_array(2,$target)) { echo "checked"; } ?>> Teuton</label><br>
+						<label><input class="check" type="checkbox" name="a2_v3" value="1" <?php if(in_array(3,$target)) { echo "checked"; } ?>> Gaul</label><br>
+						<label><input class="check" type="checkbox" name="a2_v4" value="1" <?php if(in_array(4,$target)) { echo "checked"; } ?>> Alam</label>
 					</div>
 				</td>
 
 				<td>
 					<div class="fighterType">
-						<div class="boxes boxesColor gray"><div class="boxes-tl"></div><div class="boxes-tr"></div><div class="boxes-tc"></div><div class="boxes-ml"></div><div class="boxes-mr"></div><div class="boxes-mc"></div><div class="boxes-bl"></div><div class="boxes-br"></div><div class="boxes-bc"></div><div class="boxes-contents">نوع حمله	</div>
+						<div class="boxes boxesColor gray"><div class="boxes-tl"></div><div class="boxes-tr"></div><div class="boxes-tc"></div><div class="boxes-ml"></div><div class="boxes-mr"></div><div class="boxes-mc"></div><div class="boxes-bl"></div><div class="boxes-br"></div><div class="boxes-bc"></div><div class="boxes-contents">Jenis serangan	</div>
 				</div>
 					</div>
 					<div class="clear"></div>
 
 					<div class="choice">
-                    <label><input class="radio" type="radio" name="ktyp" value="0" <?php if($form->getValue('ktyp') == 0 || $form->getValue('ktyp') == "") { echo "checked"; } ?>> عادی</label><br/>
+                    <label><input class="radio" type="radio" name="ktyp" value="0" <?php if($form->getValue('ktyp') == 0 || $form->getValue('ktyp') == "") { echo "checked"; } ?>> Normal</label><br/>
 
-        <label><input class="radio" type="radio" name="ktyp" value="1" <?php if($form->getValue('ktyp') == 1) { echo "checked"; } ?>> غارت</label><br/>
+        <label><input class="radio" type="radio" name="ktyp" value="1" <?php if($form->getValue('ktyp') == 1) { echo "checked"; } ?>> Serbuan</label><br/>
 						<input type="hidden" name="uid" value="<?php echo $session->uid; ?>">
 					</div>
 				</td>
@@ -165,7 +165,7 @@ if(count($target) > 0) {
 	</table>
 
 
-<p class="btn"><button type="submit" value="شبیه سازی جنگی" name="s1" id="btn_ok"><div class="button-container"><div class="button-position"><div class="btl"><div class="btr"><div class="btc"></div></div></div><div class="bml"><div class="bmr"><div class="bmc"></div></div></div><div class="bbl"><div class="bbr"><div class="bbc"></div></div></div></div><div class="button-contents">شبیه سازی جنگی</div></div></button></p>
+<p class="btn"><button type="submit" value="serangan simulasi" name="s1" id="btn_ok"><div class="button-container"><div class="button-position"><div class="btl"><div class="btr"><div class="btc"></div></div></div><div class="bml"><div class="bmr"><div class="bmc"></div></div></div><div class="bbl"><div class="bbr"><div class="bbc"></div></div></div></div><div class="button-contents">serangan simulasi</div></div></button></p>
 </form>
 </div>
 <div class="clear">&nbsp;</div>
