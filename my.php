@@ -27,7 +27,7 @@ define("HEADER_MESSAGES_NEW","Mesej Baru");
 
 
 //LOGIN.php
-define("LOGIN_WELCOME","به سرور ".SERVER_NAME." خوش آمدید!");
+define("LOGIN_WELCOME","Selamat Datang".SERVER_NAME." Kepada Semua.!");
 define("LOGIN_NO_JAVASCRIPT","در مرورگر شما JavaScript غیرفعال می‌باشد. برای اینکه قادر به بازی باشید باید از تنظیمات مرورگر خود JavaScript را فعال کنید.");
 define("LOGIN_USERNAME","نام اکانت");
 define("LOGIN_PASSWORD","رمز عبور");
@@ -48,29 +48,29 @@ define("VERIFY_EMAIL","ایمیل تایید شد");
 define("COOKIES","برای ورود، باید کوکی را فعال کنید. در صورتی که شما کامپیوتر را مشتركاً با اشخاص دیگری استفاده می کنید، باید به هنگام خروج، لاگ اوت (خروج) را بزنید.");
 
 
-//LOGOUT.php edit ~ujang
-define("LOGOUT_TITLE","Logout Success");
-define("LOGOUT_H4","Terima Kasih Daripada Kami");
-define("LOGOUT_DESC","Jika anda berkongsi komputer sila Clear Cookie anda untuk mengelakkan pencerobohan Akaun anda");
-define("LOGOUT_LINK","Clear Cookie");
+//LOGOUT.php
+define("LOGOUT_TITLE","خروج موفقیت آمیز");
+define("LOGOUT_H4","با تشکر از بازديد شما.");
+define("LOGOUT_DESC","اگر افراد دیگری نیز از این کامپیوتر استفاده می کنند، شما باید کوکی ها را برای امنیت بیشتر خود پاک کنید:");
+define("LOGOUT_LINK","پاک کردن کوکی ها");
 
 
-//REGISTER
-define("REGISTER_USERINFO","اطلاعات کاربر");
-define("REGISTER_USERNAME","نام:");
-define("REGISTER_EMAIL","ایمیل:");
-define("REGISTER_LOCATION","محل شروع");
-define("REGISTER_RANDOM","انتخاب تصادفی");
-define("REGISTER_NW","شمال غربی");
-define("REGISTER_NE","شمال شرقی");
-define("REGISTER_SW","جنوب غربی");
-define("REGISTER_SE","جنوب شرقی");
-define("ACCEPT_RULES"," من قوانین را خوانده و قبول دارم.");
-define("REGISTER_MOREINFO","اطلاعات بیشتر");
-define("REGISTER_PASSWORD","رمز عبور:");
-define("REGISTER_SELECT_TRIBE","یک نژاد انتخاب کنید");
-define("BEFORE_REGISTER","قبل از اینکه ثبت نام کنید، بهتر است بخش <a href='../anleitung.php' target='_blank'>راهنمایی</a> تراوین را مطالعه کنید تا از برتری و ضعف هر یک از سه نژاد مطلع شوید.");
-define("REGISTER_STARTER","اگر به تازگی با TRAFIAN آشنا شده اید، توصیه می شود که نژاد گول را انتخاب کنید.");
+//REGISTER edit ~ujang
+define("REGISTER_USERINFO","Maklumat Penggunaر");
+define("REGISTER_USERNAME","Username :");
+define("REGISTER_EMAIL","Email:");
+define("REGISTER_LOCATION","Location :");
+define("REGISTER_RANDOM","Random selection");
+define("REGISTER_NW","Barat Laut");
+define("REGISTER_NE","Timur Laut");
+define("REGISTER_SW","Barat Daya");
+define("REGISTER_SE","Tenggara");
+define("ACCEPT_RULES"," Saya telah membaca dan bersetuju dengan peraturan yan ditetapkan ");
+define("REGISTER_MOREINFO","Maklumat Lanjutر");
+define("REGISTER_PASSWORD","Password : ");
+define("REGISTER_SELECT_TRIBE","Pilih Bahasa");
+define("BEFORE_REGISTER","Sebelum anda mendaftar.sila ke link <a href='../anleitung.php' target='_blank'>PERTOLONGAN</a> untuk membaca Kebaikan dan keburukan antara ketiga-tiga Pihak ( PUAK )");
+define("REGISTER_STARTER","JIKA ANDA PEMAIN BARU TravianTBD Sila membaca terlebih dahulu sebelum menjadi KEBODOHAN");
 
 
 //CONTACT.PHP
@@ -119,11 +119,11 @@ define("ATAG_EXIST","قبلا ثبت شده");
 define("ANAME_EXIST","قبلا ثبت شده");
 
 
-//BUILD.TPL
-define("CUR_PROD","تولیدات فعلی");
-define("NEXT_PROD","تولیدات در سطح ");
-define("BUILDING_UPGRADING","ساختمان:");
-define("HOURS","ساعت");
+//BUILD.TPL edit ~ujang
+define("CUR_PROD","Product Semasa");
+define("NEXT_PROD","Pengeluaran Di");
+define("BUILDING_UPGRADING","Bangunan");
+define("HOURS","Masa");
 
 
 //WARSIM.TPL
@@ -184,43 +184,43 @@ define("SIDEINFO_ALLY_FORUM","فروم اتحاد");
 //======================================================//
 
 //HERO
-define("U0","قهرمان");
+define("U0","HERO");
 
 //ROMAN UNITS
-define("U1","سرباز لژیون");
-define("U2","محافظ");
-define("U3","شمشیرزن");
-define("U4","خبرچین");
-define("U5","شوالیه");
-define("U6","شوالیه سزار");
-define("U7","دژکوب");
-define("U8","منجنیق آتشین");
-define("U9","سناتور");
-define("U10","مهاجر");
+define("U1","Legionnaire");
+define("U2","Praetorian");
+define("U3","Imperian");
+define("U4","Equites Legati");
+define("U5","Equites Imperatoris");
+define("U6","Equites Caesaris");
+define("U7","Battering Ram");
+define("U8","Fire Catapult");
+define("U9","Senator");
+define("U10","Settler");
 
 //TEUTON UNITS
-define("U11","گرزدار");
-define("U12","نیزه دار");
-define("U13","تبرزن");
-define("U14","جاسوس");
-define("U15","دلاور");
-define("U16","شوالیه توتن");
-define("U17","دژکوب");
-define("U18","منجنیق");
-define("U19","رئیس");
-define("U20","مهاجر");
+define("U11","Clubswinger");
+define("U12","Spearman");
+define("U13","Axeman");
+define("U14","Scout");
+define("U15","Paladin");
+define("U16","Teutonic Knight");
+define("U17","Ram");
+define("U18","Catapult");
+define("U19","Chief");
+define("U20","Settler");
 
 //GAUL UNITS
-define("U21","سرباز پیاده");
-define("U22","شمشیرزن");
-define("U23","ردیاب");
-define("U24","رعد");
-define("U25","کاهن سواره");
-define("U26","شوالیه گول");
-define("U27","دژکوب");
-define("U28","منجنیق");
-define("U29","رئیس قبیله");
-define("U30","مهاجر");
+define("U21","Phalanx");
+define("U22","Swordsman");
+define("U23","Pathfinder");
+define("U24","Theutates Thunder");
+define("U25","Druidrider");
+define("U26","Haeduan");
+define("U27","Ram");
+define("U28","Trebuchet");
+define("U29","Chieftain");
+define("U30","Settler");
 
 //HOKAGE UNITS
 define("U31","Hashirama Senju");
@@ -246,47 +246,47 @@ define("U48","Kakuzu");
 define("U49","Sasori");
 define("U50","Uchiha Madara");
 
-//INDEX.php
+//INDEX.php ~ edit Ujang
 define("LOGIN","Masuk");
 define("PLAYERS","Pemain);
 define("ONLINE","Onlineن");
 define("TUTORIAL","Panduan");
-define("PLAYER_STATISTICS","آمار بازیکنان");
-define("TOTAL_PLAYERS","مجموع ".PLAYERS."");
+define("PLAYER_STATISTICS","Player statistics");
+define("TOTAL_PLAYERS","JUMLAH ".PLAYERS."");
 define("ACTIVE_PLAYERS","Pemain Aktif");
-define("ONLINE_PLAYERS","".PLAYERS." آنلاین");
-define("MP_STRATEGY_GAME","".SERVER_NAME." - بازی اینترنتی - رومی ها، گول ها و توتن ها");
+define("ONLINE_PLAYERS","".PLAYERS." Online");
+define("MP_STRATEGY_GAME","".SERVER_NAME." - the multiplayer strategy game");
 define("WHAT_IS","".SERVER_NAME." is one of the most popular browser games in the world. As a player in ".SERVER_NAME.", you will build your own empire, recruit a mighty army, and fight with your allies for game world hegemony.");
-define("REGISTER_FOR_FREE","رایگان عضو شوید");
-define("LATEST_GAME_WORLD","آخرین جهان های بازی");
-define("LATEST_GAME_WORLD2","در آخرین<br/>جهان بازی<br/>عضو شوید<br/>و تلاش کنید<br/>برای اول شدن.");
-define("PLAY_NOW","بازی کردن ".SERVER_NAME."");
-define("LEARN_MORE","اطلاعات بیشتر <br/>درباره ".SERVER_NAME."!");
-define("COMUNITY","اجتماع");
+define("REGISTER_FOR_FREE","Register here for free!");
+define("LATEST_GAME_WORLD","Latest game world");
+define("LATEST_GAME_WORLD2","Register on the latest<br/>game world and enjoy<br/>the advantages of<br/>being one of the<br/>first players.");
+define("PLAY_NOW","PLAY NOW".SERVER_NAME."");
+define("LEARN_MORE","Learn more <br/>about ".SERVER_NAME."!");;
+define("COMUNITY","Komuniti");
 define("NEWS","Beritaر");
-define("SCREENSHOTS","تصاویر");
-define("LOGIN_TO","ورود به ". SERVER_NAME);
-define("REGIN_TO","عضویت در ". SERVER_NAME);
-define("P_ONLINE","بازیکنان آنلاین: ");
-define("P_TOTAL","مجموع بازیکنان: ");
-define("CHOOSE","لطفا یک سرور انتخاب کن");
-define("STARTED"," این سرور ". round((time()-COMMENCE)/86400) ." روز قبل شروع شده است");
+define("SCREENSHOTS","Screenshots");
+define("LOGIN_TO","Log in to ". SERVER_NAME);
+define("REGIN_TO","Register in ". SERVER_NAME);
+define("P_ONLINE","Players online: ");
+define("P_TOTAL","Players in total: ");
+define("CHOOSE","Please choose a server.");
+define("STARTED"," The server started ". round((time()-COMMENCE)/86400) ." days ago.");
 
 
-//ATTACKS ETC.
-define("TROOP_MOVEMENTS","حرکت لشکریان:");
-define("ARRIVING_REINF_TROOPS","رسیدن نیروی کمکی");
-define("ARRIVING_REINF_TROOPS_SHORT","نیروی کمکی");
-define("OWN_ATTACKING_TROOPS","حملات از دهکده");
-define("ARRIVING_ATTACKING_TROOPS","حرکت نیروهای دشمن");
+//ATTACKS ETC. edit ~ujang
+define("TROOP_MOVEMENTS","Menghantar Askar:");
+define("ARRIVING_REINF_TROOPS","Ketibaan Pengukuhan Tentera");
+define("ARRIVING_REINF_TROOPS_SHORT","Membantu");
+define("OWN_ATTACKING_TROOPS","Menyerang kampung-kampungه");
+define("ARRIVING_ATTACKING_TROOPS","Pergerakan tentera musuh.");
 define("ATTACK","حمله");
-define("OWN_REINFORCING_TROOPS","نیروی کمکی در دهکده");
-define("TROOPS_DORF","لشکریان:");
+define("OWN_REINFORCING_TROOPS","Membantu Kampung");
+define("TROOPS_DORF","Askar :");
 
 
 //404.php
-define("NOTHING_HERE","اینجا چیزی موجود نیست!");
-define("WE_LOOKED","ما 404 بار نگاه کردیم اما هیچی پیدا نکردیم!");
+define("NOTHING_HERE","Hoi Cari apa kat sini!");
+define("WE_LOOKED","Tiada apa-apa kat sini 404 bilik MAYAT JE ada .");
 
 //HEADER.TPL
 define("SERVER_TIME","زمان سرور:");
