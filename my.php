@@ -1,6 +1,6 @@
 <?php
 
-//TRIBES
+//TRIBES - edit wanbotak
 define("TRIBE1","Roman"); 
 define("TRIBE2","Teuton");
 define("TRIBE3","Gaul"); 
@@ -9,7 +9,7 @@ define("TRIBE5","Akatsuki");
 define("TRIBE6","Monsters");
 
 
-//MAIN MENU
+//MAIN MENU - edit wanbotak
 define("HOME","Laman Utama");
 define("LOGIN","Masuk");
 define("REG","Daftar");
@@ -27,66 +27,66 @@ define("HEADER_MESSAGES_NEW","Mesej Baru");
 
 
 //LOGIN.php
-define("LOGIN_WELCOME","Selamat Datang di ".SERVER_NAME." versi Beta.");
-define("LOGIN_NO_JAVASCRIPT","anda telah mematikan JavaScript di pelayar anda. Untuk dapat bermain, anda perlu mengaktifkan JavaScript dalam pelayar anda semula.");
-define("LOGIN_USERNAME","Nama Samaran");
-define("LOGIN_PASSWORD","Kata Laluan");
-define("LOGIN_LOWRES_OPTION","Editing for players");
-define("LOGIN_LOWRES_DESC","With less bandwidth (speed less)");
-define("LOGIN_LOWRES_NOTICE","(Note: All options may not edit map)");
-define("LOGIN_PW_FORGOTTEN","Lupa kata laluan?");
-define("LOGIN_PW_EMAIL","Email:");
-define("LOGIN_PW_BTN","Kata laluan");
-define("LOGIN_PW_REQUEST","We will send you a new password. Once you receive a confirmation code will be active.");
-define("LOGIN_PW_SENT","Satu e-mel yang mengandungi kata laluan baru dihantar ke email anda");
-define("LOGIN_SERVER_START","The game has not started yet. You are able to play in");
-define("LOGIN_SERVER_START2","Menjadi.");
-define("PW_GENERATE","All fields are mandatory");
-define("EMAIL_NOT_VERIFIED","E-mel yang belum disahkan");
-define("EMAIL_FOLLOW","Klik pada pautan ini untuk mengaktifkan akaun anda");
-define("VERIFY_EMAIL","E-mel disahkan");
-define("COOKIES","To enter, you must enable cookies. If your computer is shared with other people, you should exit the log (EXIT) button.");
+define("LOGIN_WELCOME","Selamat Datang".SERVER_NAME." Kepada Semua.!");
+define("LOGIN_NO_JAVASCRIPT","در مرورگر شما JavaScript غیرفعال می‌باشد. برای اینکه قادر به بازی باشید باید از تنظیمات مرورگر خود JavaScript را فعال کنید.");
+define("LOGIN_USERNAME","نام اکانت");
+define("LOGIN_PASSWORD","رمز عبور");
+define("LOGIN_LOWRES_OPTION","ویرایش برای بازیکن");
+define("LOGIN_LOWRES_DESC","با پهنای باند کمتر (سرعت اینترنت کمتر)");
+define("LOGIN_LOWRES_NOTICE","(توجه: این ویرایش نقشه تمامی امکان‌های ممکن را ندارد)");
+define("LOGIN_PW_FORGOTTEN","رمز عبور را فراموش کردید؟");
+define("LOGIN_PW_EMAIL","ایمیل:");
+define("LOGIN_PW_BTN","درخواست رمز عبور");
+define("LOGIN_PW_REQUEST","ما برای شما رمز جدیدی ارسال خواهیم کرد. به محض اینکه دریافت نامه را تایید کنید رمز فعال خواهد شد.");
+define("LOGIN_PW_SENT","یک ایمیل حاوی رمز عبور جدید به ایمیل شما فرستاده شد");
+define("LOGIN_SERVER_START","بازی هنوز شروع نشده است. شما قادر به بازی کردن در");
+define("LOGIN_SERVER_START2","می باشید.");
+define("PW_GENERATE","همه قسمت ها الزامی است");
+define("EMAIL_NOT_VERIFIED","ایمیل تایید نشده");
+define("EMAIL_FOLLOW","برای فعالسازی اکانت خود روی این لینک کلیک کنید");
+define("VERIFY_EMAIL","ایمیل تایید شد");
+define("COOKIES","برای ورود، باید کوکی را فعال کنید. در صورتی که شما کامپیوتر را مشتركاً با اشخاص دیگری استفاده می کنید، باید به هنگام خروج، لاگ اوت (خروج) را بزنید.");
 
 
 //LOGOUT.php
-define("LOGOUT_TITLE","Anda telah berjaya keluar");
-define("LOGOUT_H4","Terima kasih untuk lawatan anda.");
-define("LOGOUT_DESC","Jika orang lain juga menggunakan komputer ini, anda perlu memadam cookies anda untuk memperoleh keselamatan:");
-define("LOGOUT_LINK","Cookies anda dipadam");
+define("LOGOUT_TITLE","خروج موفقیت آمیز");
+define("LOGOUT_H4","با تشکر از بازديد شما.");
+define("LOGOUT_DESC","اگر افراد دیگری نیز از این کامپیوتر استفاده می کنند، شما باید کوکی ها را برای امنیت بیشتر خود پاک کنید:");
+define("LOGOUT_LINK","پاک کردن کوکی ها");
 
 
-//REGISTER
-define("REGISTER_USERINFO","Maklumat Pengguna");
-define("REGISTER_USERNAME","Nama Samaran:");
+//REGISTER edit ~ujang
+define("REGISTER_USERINFO","Maklumat Penggunaر");
+define("REGISTER_USERNAME","Username :");
 define("REGISTER_EMAIL","Email:");
-define("REGISTER_LOCATION","Lokasi");
-define("REGISTER_RANDOM","Pilih secara rawak");
+define("REGISTER_LOCATION","Location :");
+define("REGISTER_RANDOM","Random selection");
 define("REGISTER_NW","Barat Laut");
 define("REGISTER_NE","Timur Laut");
 define("REGISTER_SW","Barat Daya");
 define("REGISTER_SE","Tenggara");
-define("ACCEPT_RULES"," Saya telah membaca dan bersetuju dengan peraturan yang ditetapkan.");
-define("REGISTER_MOREINFO","Maklumat lanjut");
-define("REGISTER_PASSWORD","Kata Laluan:");
-define("REGISTER_SELECT_TRIBE","Pilih Puak");
-define("BEFORE_REGISTER","Sebelum anda mendaftar, Sila ke pautan <a href='../anleitung.php' target='_blank'>BANTUAN</a> untuk membaca Kebaikan dan keburukan antara ketiga-tiga puak.");
-define("REGISTER_STARTER","Jika anda pemain baru di TBDrian sila baca terlebih dahulu di laman <a href='../anleitung.php' target='_blank'>Bantuan</a>.");
+define("ACCEPT_RULES"," Saya telah membaca dan bersetuju dengan peraturan yan ditetapkan ");
+define("REGISTER_MOREINFO","Maklumat Lanjutر");
+define("REGISTER_PASSWORD","Password : ");
+define("REGISTER_SELECT_TRIBE","Pilih Bahasa");
+define("BEFORE_REGISTER","Sebelum anda mendaftar.sila ke link <a href='../anleitung.php' target='_blank'>PERTOLONGAN</a> untuk membaca Kebaikan dan keburukan antara ketiga-tiga Pihak ( PUAK )");
+define("REGISTER_STARTER","JIKA ANDA PEMAIN BARU TravianTBD Sila membaca terlebih dahulu sebelum menjadi KEBODOHAN");
 
 
 //CONTACT.PHP
-define("CONTACT_DESC","Anda boleh menggunakan borang di bawah untuk menghantar permintaan anda untuk menyokong. Sila jawab soalan-soalan pada borang tersebut dan masukkan butiran sebaik sahaja kami dapat membantu anda.");
-define("CONTACT_CATEGORY","kategori");
-define("CONTACT_SELECT_SUBJECT","Sila pilih");
-define("CONTACT_SUBJECT1","soalan umum");
-define("CONTACT_SUBJECT2","Saya tidak boleh masuk ke akaun saya.");
-define("CONTACT_SUBJECT3","Saya tidak dapat mendaftar");
-define("CONTACT_SUPPORT","sokongan pelayan");
-define("CONTACT_USERNAME","Nama Pengguna");
-define("CONTACT_USER_NOT_EXIST","Nama pengguna ini tidak berdaftar.");
-define("CONTACT_EMAIL","E-mel");
-define("CONTACT_MESSAGE","Mesej");
-define("CONTACT_SEND","Hantar");
-define("CONTACT_SENT","Berjaya dihantar.");
+define("CONTACT_DESC","شما می توانید از فرم زیر درخواست خود را به پشتیبانی ارسال کنید. لطفاً با دقت پاسخ سوالات فرم را با جزیئات وارد کنید تا در اسرع وقت قادر به راهنمایی شما باشیم.");
+define("CONTACT_CATEGORY","دسته");
+define("CONTACT_SELECT_SUBJECT","لطفاً انتخاب کنید");
+define("CONTACT_SUBJECT1","سوال عمومی");
+define("CONTACT_SUBJECT2","نمی توانم وارد اکانت شوم");
+define("CONTACT_SUBJECT3","نمی توانم ثبت نام کنم");
+define("CONTACT_SUPPORT","پشتیبانی سرور");
+define("CONTACT_USERNAME","نام کاربری");
+define("CONTACT_USER_NOT_EXIST","این نام کاربری ثبت نشده.");
+define("CONTACT_EMAIL","ایمیل");
+define("CONTACT_MESSAGE","پیام");
+define("CONTACT_SEND","ارسال");
+define("CONTACT_SENT","با موفقیت ارسال شد.");
 
 
 //ERRORS
@@ -119,68 +119,67 @@ define("ATAG_EXIST","قبلا ثبت شده");
 define("ANAME_EXIST","قبلا ثبت شده");
 
 
-//BUILD.TPL
-define("CUR_PROD","Pengeluaran Semasa");
-define("NEXT_PROD","Pengeluaran Di­ ");
-define("BUILDING_UPGRADING","Bangunan:");
-define("HOURS","Jam");
+//BUILD.TPL edit ~ujang
+define("CUR_PROD","Product Semasa");
+define("NEXT_PROD","Pengeluaran Di");
+define("BUILDING_UPGRADING","Bangunan");
+define("HOURS","Masa");
 
 
-//WARSIM.TPL
-define("WARSIM","شبیه ساز جنگی");
-define("WARSIM_ATTACKER","حمله کننده");
-define("WARSIM_DEFENDER","مدافع");
-define("WARSIM_ETC","غیره");
+//WARSIM.TPL edit ~ ujang
+define ("WARSIM", "perang simulator");
+define ("WARSIM_ATTACKER", "penyerang");
+define ("WARSIM_DEFENDER", "pertahanan");
+define ("WARSIM_ETC", "lain");
 
-define("WARSIM_POP","جمعیت");
-define("WARSIM_KATA","سطح هدف منجنیق");
-define("WARSIM_HEROPOWER","قهرمان (امتیاز حمله)");
-define("WARSIM_STONEMASON","سنگ تراشی");
-define("WARSIM_PALACE","قصر / اقامتگاه");
+define("WARSIM_POP", "orang ramai");
+define("WARSIM_KATA", "sasaran Tarbil");
+define("WARSIM_HEROPOWER", "Hero (Score Attack)");
+define("WARSIM_STONEMASON", "batu");
+define("WARSIM_PALACE", "istana / rumah");
 
-//BUILDINGS
-define("B1","هیزم شکن");
-define("B1_DESC","هیزم شکن چوب تولید میکند. هرچقدر که بیشتر ارتقا داده شود چوب بیشتری تولید میکند");
-define("B2","آجر سازی");
-define("B2_DESC","در اینجا آجر خام (خشت) ساخته می شود. هر قدر سطح این ساختمان بالاتر باشد تولید این محصول بیشتر خواهد شد.");
-define("B3","معدن آهن");
-define("B3_DESC","در اینجا معدنچیان، به تولید آهن می پردازند. هر قدر که سطح معدن بالاتر باشد، آهن بیشتری تولید خواهد شد.");
-define("B4","گندمزار");
-define("B4_DESC","غذای مصرفی مردم در اینجا تولید می شود که با وسعت دادنش توليد محصول بیشتر می شود");
+define("B1", "Kawasan Pembalakan");
+define("B1_DESC", ". Pengeluaran kayu pembalakan ini perlu lagi dinaik taraf untuk menghasilkan kayu yang banyak");
+define("B2", "Kawasan Tanah Liat");
+define("B2_DESC", " Pengeluaran Tanah Liat ini perlu lagi dinaik taraf untuk menghasilkan Tanah Liat yang banyak");
+define("B3", "Lombong Bijih Besi");
+define("B3_DESC", "Pengeluaran Bijih Besi ini perlu lagi dinaik taraf untuk menghasilkan Besi yang banyak");
+define("B4", "bidang gandum");
+define("B4_DESC", "makanan di sini akan menghasilkan hasil yang lebih tinggi daripada kawasan yang Melrose");
 
-//DORF1
+//DORF1 ~whcool
 define("LUMBER","Kayu");
-define("CLAY","Tanah Liat");
+define("CLAY","Bata");
 define("IRON","Besi");
 define("CROP","Tanaman");
-define("LEVEL","Tahap­");
-define("CROP_COM",CROP." مصرفی");
-define("PER_HR","در ساعت");
-define("PROD_HEADER","تولیدات");
-define("MULTI_V_HEADER","دهکده ها");
-define("ANNOUNCEMENT","اعلانات");
-define("GO2MY_VILLAGE","بازگشت به دهکده");
-define("VILLAGE_CENTER","مرکز دهکده");
-define("FINISH_GOLD","آِیا میخواهید کارهای این دهکده را با 2طلا به اتمام برسانید؟");
-define("WAITING_LOOP","(نوبت ساخت)");
-define("HRS","(ساعت)");
-define("DONE_AT","اتمام در");
-define("CANCEL","انصراف");
-define("LOYALTY","وفاداری:"); 
-define("SEVER_TIME","زمان سرور:");
-define("SIDEINFO_CHANGEVIL_BTN","ذخیره"); 
-define("SIDEINFO_CHANGEVIL_LABEL","نام جدید دهکده:"); 
-define("SIDEINFO_CHANGEVIL_TITLE","تغییر نام دهکده"); 
-define("SIDEINFO_CHANGE_TITLE","برای تغییر نام دهکده دوبار کلیک (دوبل کلیک) کنید."); 
-define("SIDEINFO_ADVENTURES","ماجراجویی"); 
-define("SIDEINFO_AUCTIONS","حراجی"); 
-define("SIDEINFO_PROFILE","پروفایل");
-define("SIDEINFO_ALLIANCE","اتحاد");
-define("SIDEINFO_ALLY_FORUM","فروم اتحاد");
+define("LEVEL","Level");
+define("CROP_COM",CROP." Habis");
+define("PER_HR","Sejam");
+define("PROD_HEADER","Pengeluaran");
+define("MULTI_V_HEADER","Kampung");
+define("ANNOUNCEMENT","Pengumuman");
+define("GO2MY_VILLAGE","Kembali ke Kampung");
+define("VILLAGE_CENTER","Village Center");
+define("FINISH_GOLD","Adakah anda ingin bekerja dengan dua penamat emas memberi Kampung ini ?");
+define("WAITING_LOOP","(menunggu giliran)");
+define("HRS","(masa)");
+define("DONE_AT","Siap pada");
+define("CANCEL","Membatalkan");
+define("LOYALTY","Kesetiaan:"); 
+define("SEVER_TIME","Waktu pelayan:");
+define("SIDEINFO_CHANGEVIL_BTN","Kedai"); 
+define("SIDEINFO_CHANGEVIL_LABEL","Nama baru kampung:"); 
+define("SIDEINFO_CHANGEVIL_TITLE","Menukar nama kampung"); 
+define("SIDEINFO_CHANGE_TITLE","Klik dua kali untuk menukar nama kampung."); 
+define("SIDEINFO_ADVENTURES","Pengembaraan"); 
+define("SIDEINFO_AUCTIONS","Pelelong"); 
+define("SIDEINFO_PROFILE","Profil");
+define("SIDEINFO_ALLIANCE","Persatuan");
+define("SIDEINFO_ALLY_FORUM","Forum persatuan");
 
 
 //======================================================//
-//================ UNITS - DO NOT EDIT! ================//
+//================ UNITS  ================//
 //======================================================//
 
 //HERO
@@ -246,47 +245,47 @@ define("U48","Kakuzu");
 define("U49","Sasori");
 define("U50","Uchiha Madara");
 
-//INDEX.php
-define("LOGIN","ورود");
-define("PLAYERS","بازیکنان");
-define("ONLINE","آنلاین");
-define("TUTORIAL","آموزش");
-define("PLAYER_STATISTICS","آمار بازیکنان");
-define("TOTAL_PLAYERS","مجموع ".PLAYERS."");
-define("ACTIVE_PLAYERS","بازیکنان فعال");
-define("ONLINE_PLAYERS","".PLAYERS." آنلاین");
-define("MP_STRATEGY_GAME","".SERVER_NAME." - بازی اینترنتی - رومی ها، گول ها و توتن ها");
+//INDEX.php ~ edit Ujang
+define("LOGIN","Masuk");
+define("PLAYERS","Pemain);
+define("ONLINE","Onlineن");
+define("TUTORIAL","Panduan");
+define("PLAYER_STATISTICS","Player statistics");
+define("TOTAL_PLAYERS","JUMLAH ".PLAYERS."");
+define("ACTIVE_PLAYERS","Pemain Aktif");
+define("ONLINE_PLAYERS","".PLAYERS." Online");
+define("MP_STRATEGY_GAME","".SERVER_NAME." - the multiplayer strategy game");
 define("WHAT_IS","".SERVER_NAME." is one of the most popular browser games in the world. As a player in ".SERVER_NAME.", you will build your own empire, recruit a mighty army, and fight with your allies for game world hegemony.");
-define("REGISTER_FOR_FREE","رایگان عضو شوید");
-define("LATEST_GAME_WORLD","آخرین جهان های بازی");
-define("LATEST_GAME_WORLD2","در آخرین<br/>جهان بازی<br/>عضو شوید<br/>و تلاش کنید<br/>برای اول شدن.");
-define("PLAY_NOW","بازی کردن ".SERVER_NAME."");
-define("LEARN_MORE","اطلاعات بیشتر <br/>درباره ".SERVER_NAME."!");
-define("COMUNITY","اجتماع");
-define("NEWS","اخبار");
-define("SCREENSHOTS","تصاویر");
-define("LOGIN_TO","ورود به ". SERVER_NAME);
-define("REGIN_TO","عضویت در ". SERVER_NAME);
-define("P_ONLINE","بازیکنان آنلاین: ");
-define("P_TOTAL","مجموع بازیکنان: ");
-define("CHOOSE","لطفا یک سرور انتخاب کن");
-define("STARTED"," این سرور ". round((time()-COMMENCE)/86400) ." روز قبل شروع شده است");
+define("REGISTER_FOR_FREE","Register here for free!");
+define("LATEST_GAME_WORLD","Latest game world");
+define("LATEST_GAME_WORLD2","Register on the latest<br/>game world and enjoy<br/>the advantages of<br/>being one of the<br/>first players.");
+define("PLAY_NOW","PLAY NOW".SERVER_NAME."");
+define("LEARN_MORE","Learn more <br/>about ".SERVER_NAME."!");;
+define("COMUNITY","Komuniti");
+define("NEWS","Beritaر");
+define("SCREENSHOTS","Screenshots");
+define("LOGIN_TO","Log in to ". SERVER_NAME);
+define("REGIN_TO","Register in ". SERVER_NAME);
+define("P_ONLINE","Players online: ");
+define("P_TOTAL","Players in total: ");
+define("CHOOSE","Please choose a server.");
+define("STARTED"," The server started ". round((time()-COMMENCE)/86400) ." days ago.");
 
 
-//ATTACKS ETC.
-define("TROOP_MOVEMENTS","حرکت لشکریان:");
-define("ARRIVING_REINF_TROOPS","رسیدن نیروی کمکی");
-define("ARRIVING_REINF_TROOPS_SHORT","نیروی کمکی");
-define("OWN_ATTACKING_TROOPS","حملات از دهکده");
-define("ARRIVING_ATTACKING_TROOPS","حرکت نیروهای دشمن");
+//ATTACKS ETC. edit ~ujang
+define("TROOP_MOVEMENTS","Menghantar Askar:");
+define("ARRIVING_REINF_TROOPS","Ketibaan Pengukuhan Tentera");
+define("ARRIVING_REINF_TROOPS_SHORT","Membantu");
+define("OWN_ATTACKING_TROOPS","Menyerang kampung-kampungه");
+define("ARRIVING_ATTACKING_TROOPS","Pergerakan tentera musuh.");
 define("ATTACK","حمله");
-define("OWN_REINFORCING_TROOPS","نیروی کمکی در دهکده");
-define("TROOPS_DORF","لشکریان:");
+define("OWN_REINFORCING_TROOPS","Membantu Kampung");
+define("TROOPS_DORF","Askar :");
 
 
 //404.php
-define("NOTHING_HERE","اینجا چیزی موجود نیست!");
-define("WE_LOOKED","ما 404 بار نگاه کردیم اما هیچی پیدا نکردیم!");
+define("NOTHING_HERE","Hoi Cari apa kat sini!");
+define("WE_LOOKED","Tiada apa-apa kat sini 404 bilik MAYAT JE ada .");
 
 //HEADER.TPL
 define("SERVER_TIME","زمان سرور:");
@@ -298,45 +297,44 @@ define("HEADER_PLUS","پلاس");
 define("HEADER_PLUSMENU","منوی پلاس");
 define("HEADER_ADMIN","مدیریت");
 
-//NOTICES
-define("REPORT_SUBJECT","موضوع:");
-define("REPORT_ATTACKER","مهاجم");
-define("REPORT_DEFENDER","مدافع");
-define("REPORT_RESOURCES","منابع");
-define("REPORT_FROM_VIL","از دهکده‌ی");
-define("REPORT_FROM_ALLY","از اتحاد");
-define("REPORT_SENT","فرستاده شده");
-define("REPORT_SENDER","فرستنده");
-define("REPORT_RECEIVER","گیرنده");
-define("REPORT_AT","در");
-define("REPORT_TO","به");
-define("REPORT_SEND_RES","منابع می‌فرستد");
-define("REPORT_DEL_BTN","حذف گزارش");
-define("REPORT_DEL_QST","واقعاً گزارش حذف شود؟");
-define("REPORT_WARSIM","شبیه ساز جنگی");
-define("REPORT_ATK_AGAIN","تکرار حمله");
-define("REPORT_TROOPS","لشکریان");
-define("REPORT_REINF","نیروی کمکی");
-define("REPORT_CASUALTIES","تلفات");
-define("REPORT_INFORMATION","اطلاعات");
-define("REPORT_BOUNTY","غنائم");
-define("REPORT_CLOCK","مدت زمان");
-define("REPORT_UPKEEP","غذای مصرفی");
-define("REPORT_PER_HOURS","در ساعت");
-define("REPORT_SEND_REINF_TO","نیروی کمکی ارسال کرد به");
+//NOTICES edit ~ujang
+define("REPORT_SUBJECT"," Subject:");
+define("REPORT_ATTACKER","Penyerang");
+define("REPORT_DEFENDER","Pertahanan");
+define("REPORT_RESOURCES","Sumber");
+define("REPORT_FROM_VIL","Kampung");
+define("REPORT_FROM_ALLY","Ally / Clans");
+define("REPORT_SENT","Dihantar");
+define("REPORT_SENDER","Penghantar");
+define("REPORT_RECEIVER","Penerima");
+define("REPORT_AT","Pada");
+define("REPORT_TO","Untuk");
+define("REPORT_SEND_RES","Menghantar Sumber");
+define("REPORT_DEL_BTN","Padam Report");
+define("REPORT_DEL_QST","Setuju?");
+define("REPORT_WARSIM","Berperang");
+define("REPORT_ATK_AGAIN","Serangan Berterusan");
+define("REPORT_TROOPS","Tentera");
+define("REPORT_REINF","Penambahan Kekuatan");
+define("REPORT_CASUALTIES","Kerugian");
+define("REPORT_INFORMATION","Maklumat");
+define("REPORT_BOUNTY","Ganjaran");
+define("REPORT_CLOCK","Masa");
+define("REPORT_UPKEEP","Makanan");
+define("REPORT_PER_HOURS","H");
+define("REPORT_SEND_REINF_TO","Penambahan Kekuatan dihantar kepada");
 
-//MASSMESSAGE.php
-define("MASS","متن پیغام");
-define("MASS_SUBJECT","موضوع:");
-define("MASS_COLOR","رنگ:");
-define("MASS_REQUIRED","همه قسمت ها الزامی است");
+//MASSMESSAGE.php edit ~ujang
+define("MASS","mesej teks");
+define("MASS_SUBJECT","Subject:");
+define("MASS_COLOR","Warna:");
+define("MASS_REQUIRED","Semua Ruang");
 define("MASS_UNITS","Images (units):");
 define("MASS_SHOWHIDE","Show/Hide");
 define("MASS_READ","Read this: after adding smilie, you have to add left or right after number otherwise image will won't work");
-define("MASS_CONFIRM","تایید");
-define("MASS_REALLY","آیا میخواهید ارسال کنید");
-define("MASS_ABORT","ارسال نشد");
-define("MASS_SENT","ارسال شد");
-
+define("MASS_CONFIRM", "OK");
+define("MASS_REALLY", "Adakah anda ingin menghantar");
+define("MASS_ABORT", "Tidak dapat menghantar");
+define("MASS_SENT", "Dihantar");
 
 ?>
