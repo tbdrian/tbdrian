@@ -148,35 +148,35 @@ define("B3_DESC","در اینجا معدنچیان، به تولید آهن می
 define("B4","گندمزار");
 define("B4_DESC","غذای مصرفی مردم در اینجا تولید می شود که با وسعت دادنش توليد محصول بیشتر می شود");
 
-//DORF1
-define("LUMBER","چوب");
-define("CLAY","خشت");
-define("IRON","آهن");
-define("CROP","گندم");
-define("LEVEL","سطح");
-define("CROP_COM",CROP." مصرفی");
-define("PER_HR","در ساعت");
-define("PROD_HEADER","تولیدات");
-define("MULTI_V_HEADER","دهکده ها");
-define("ANNOUNCEMENT","اعلانات");
-define("GO2MY_VILLAGE","بازگشت به دهکده");
-define("VILLAGE_CENTER","مرکز دهکده");
-define("FINISH_GOLD","آِیا میخواهید کارهای این دهکده را با 2طلا به اتمام برسانید؟");
-define("WAITING_LOOP","(نوبت ساخت)");
-define("HRS","(ساعت)");
-define("DONE_AT","اتمام در");
-define("CANCEL","انصراف");
-define("LOYALTY","وفاداری:"); 
-define("SEVER_TIME","زمان سرور:");
-define("SIDEINFO_CHANGEVIL_BTN","ذخیره"); 
-define("SIDEINFO_CHANGEVIL_LABEL","نام جدید دهکده:"); 
-define("SIDEINFO_CHANGEVIL_TITLE","تغییر نام دهکده"); 
-define("SIDEINFO_CHANGE_TITLE","برای تغییر نام دهکده دوبار کلیک (دوبل کلیک) کنید."); 
-define("SIDEINFO_ADVENTURES","ماجراجویی"); 
-define("SIDEINFO_AUCTIONS","حراجی"); 
-define("SIDEINFO_PROFILE","پروفایل");
-define("SIDEINFO_ALLIANCE","اتحاد");
-define("SIDEINFO_ALLY_FORUM","فروم اتحاد");
+//DORF1 ~whcool
+define("LUMBER","Kayu");
+define("CLAY","Bata");
+define("IRON","Besi");
+define("CROP","Tanaman");
+define("LEVEL","Level");
+define("CROP_COM",CROP." Habis");
+define("PER_HR","Sejam");
+define("PROD_HEADER","Pengeluaran");
+define("MULTI_V_HEADER","Kampung");
+define("ANNOUNCEMENT","Pengumuman");
+define("GO2MY_VILLAGE","Kembali ke Kampung");
+define("VILLAGE_CENTER","Village Center");
+define("FINISH_GOLD","Adakah anda ingin bekerja dengan dua penamat emas memberi Kampung ini ?");
+define("WAITING_LOOP","(menunggu giliran)");
+define("HRS","(masa)");
+define("DONE_AT","Siap pada");
+define("CANCEL","Membatalkan");
+define("LOYALTY","Kesetiaan:"); 
+define("SEVER_TIME","Waktu pelayan:");
+define("SIDEINFO_CHANGEVIL_BTN","Kedai"); 
+define("SIDEINFO_CHANGEVIL_LABEL","Nama baru kampung:"); 
+define("SIDEINFO_CHANGEVIL_TITLE","Menukar nama kampung"); 
+define("SIDEINFO_CHANGE_TITLE","Klik dua kali untuk menukar nama kampung."); 
+define("SIDEINFO_ADVENTURES","Pengembaraan"); 
+define("SIDEINFO_AUCTIONS","Pelelong"); 
+define("SIDEINFO_PROFILE","Profil");
+define("SIDEINFO_ALLIANCE","Persatuan");
+define("SIDEINFO_ALLY_FORUM","Forum persatuan");
 
 
 //======================================================//
