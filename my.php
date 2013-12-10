@@ -48,11 +48,11 @@ define("VERIFY_EMAIL","ایمیل تایید شد");
 define("COOKIES","برای ورود، باید کوکی را فعال کنید. در صورتی که شما کامپیوتر را مشتركاً با اشخاص دیگری استفاده می کنید، باید به هنگام خروج، لاگ اوت (خروج) را بزنید.");
 
 
-//LOGOUT.php
-define("LOGOUT_TITLE","خروج موفقیت آمیز");
-define("LOGOUT_H4","با تشکر از بازديد شما.");
-define("LOGOUT_DESC","اگر افراد دیگری نیز از این کامپیوتر استفاده می کنند، شما باید کوکی ها را برای امنیت بیشتر خود پاک کنید:");
-define("LOGOUT_LINK","پاک کردن کوکی ها");
+//LOGOUT.php edit ~ujang
+define("LOGOUT_TITLE","Logout Success");
+define("LOGOUT_H4","Terima Kasih Daripada Kami");
+define("LOGOUT_DESC","Jika anda berkongsi komputer sila Clear Cookie anda untuk mengelakkan pencerobohan Akaun anda");
+define("LOGOUT_LINK","Clear Cookie");
 
 
 //REGISTER
