@@ -29,28 +29,28 @@ define("HEADER_MESSAGES_NEW","Mesej Baru");
 //LOGIN.php
 define("LOGIN_WELCOME","Selamat Datang".SERVER_NAME." Kepada Semua.!");
 define("LOGIN_NO_JAVASCRIPT","در مرورگر شما JavaScript غیرفعال می‌باشد. برای اینکه قادر به بازی باشید باید از تنظیمات مرورگر خود JavaScript را فعال کنید.");
-define("LOGIN_USERNAME","نام اکانت");
-define("LOGIN_PASSWORD","رمز عبور");
+define("LOGIN_USERNAME","Nama Akaun");
+define("LOGIN_PASSWORD","Kata Laluan");
 define("LOGIN_LOWRES_OPTION","ویرایش برای بازیکن");
 define("LOGIN_LOWRES_DESC","با پهنای باند کمتر (سرعت اینترنت کمتر)");
 define("LOGIN_LOWRES_NOTICE","(توجه: این ویرایش نقشه تمامی امکان‌های ممکن را ندارد)");
-define("LOGIN_PW_FORGOTTEN","رمز عبور را فراموش کردید؟");
-define("LOGIN_PW_EMAIL","ایمیل:");
+define("LOGIN_PW_FORGOTTEN","Lupa Kata Laluan?");
+define("LOGIN_PW_EMAIL","E-Mel:");
 define("LOGIN_PW_BTN","درخواست رمز عبور");
 define("LOGIN_PW_REQUEST","ما برای شما رمز جدیدی ارسال خواهیم کرد. به محض اینکه دریافت نامه را تایید کنید رمز فعال خواهد شد.");
-define("LOGIN_PW_SENT","یک ایمیل حاوی رمز عبور جدید به ایمیل شما فرستاده شد");
+define("LOGIN_PW_SENT","Satu e-mel yang mengandungi kata laluan baru dihantar ke email anda");
 define("LOGIN_SERVER_START","بازی هنوز شروع نشده است. شما قادر به بازی کردن در");
 define("LOGIN_SERVER_START2","می باشید.");
 define("PW_GENERATE","همه قسمت ها الزامی است");
-define("EMAIL_NOT_VERIFIED","ایمیل تایید نشده");
+define("EMAIL_NOT_VERIFIED","E-mel anda belum disahkan");
 define("EMAIL_FOLLOW","برای فعالسازی اکانت خود روی این لینک کلیک کنید");
-define("VERIFY_EMAIL","ایمیل تایید شد");
+define("VERIFY_EMAIL","E-mel disahkan");
 define("COOKIES","برای ورود، باید کوکی را فعال کنید. در صورتی که شما کامپیوتر را مشتركاً با اشخاص دیگری استفاده می کنید، باید به هنگام خروج، لاگ اوت (خروج) را بزنید.");
 
 
 //LOGOUT.php
 define("LOGOUT_TITLE","خروج موفقیت آمیز");
-define("LOGOUT_H4","با تشکر از بازديد شما.");
+define("LOGOUT_H4","Terima kasih untuk lawatan anda.");
 define("LOGOUT_DESC","اگر افراد دیگری نیز از این کامپیوتر استفاده می کنند، شما باید کوکی ها را برای امنیت بیشتر خود پاک کنید:");
 define("LOGOUT_LINK","پاک کردن کوکی ها");
 
@@ -75,46 +75,46 @@ define("REGISTER_STARTER","JIKA ANDA PEMAIN BARU TravianTBD Sila membaca terlebi
 
 //CONTACT.PHP
 define("CONTACT_DESC","شما می توانید از فرم زیر درخواست خود را به پشتیبانی ارسال کنید. لطفاً با دقت پاسخ سوالات فرم را با جزیئات وارد کنید تا در اسرع وقت قادر به راهنمایی شما باشیم.");
-define("CONTACT_CATEGORY","دسته");
-define("CONTACT_SELECT_SUBJECT","لطفاً انتخاب کنید");
-define("CONTACT_SUBJECT1","سوال عمومی");
+define("CONTACT_CATEGORY","Kategori");
+define("CONTACT_SELECT_SUBJECT","Sila buat pilihanد");
+define("CONTACT_SUBJECT1","Soalan umum");
 define("CONTACT_SUBJECT2","نمی توانم وارد اکانت شوم");
-define("CONTACT_SUBJECT3","نمی توانم ثبت نام کنم");
+define("CONTACT_SUBJECT3","Saya tidak dapat mendaftar");
 define("CONTACT_SUPPORT","پشتیبانی سرور");
 define("CONTACT_USERNAME","نام کاربری");
-define("CONTACT_USER_NOT_EXIST","این نام کاربری ثبت نشده.");
-define("CONTACT_EMAIL","ایمیل");
-define("CONTACT_MESSAGE","پیام");
+define("CONTACT_USER_NOT_EXIST","Nama pengguna ini tidak berdaftar.");
+define("CONTACT_EMAIL","E-mail");
+define("CONTACT_MESSAGE","Mesej");
 define("CONTACT_SEND","ارسال");
-define("CONTACT_SENT","با موفقیت ارسال شد.");
+define("CONTACT_SENT","Telah berjaya dihantar.");
 
 
 //ERRORS
-define("USRNM_EMPTY","(خالی است)");
-define("USRNM_TAKEN","(قبلا استفاده شده)");
+define("USRNM_EMPTY","(Kosong)");
+define("USRNM_TAKEN","(Sudah digunakan)");
 define("USRNM_SHORT","(حداقل ".USRNM_MIN_LENGTH." حرف)");
 define("USRNM_CHAR","(کاراکترهای اشتباه)");
-define("PW_EMPTY","(خالی است)");
+define("PW_EMPTY","(Kosong)");
 define("PW_SHORT","(حداقل ".PW_MIN_LENGTH." حرف)");
 define("PW_INSECURE","(رمز نامعتبر است، یک رمز دیگر انتخاب کنید)");
-define("EMAIL_EMPTY","(خالی است)");
-define("EMAIL_INVALID","(اشتباه است)");
-define("EMAIL_NOTEXIST","این ایمیل وجود ندارد.");
-define("EMAIL_TAKEN","(قبلا استفاده شده)");
+define("EMAIL_EMPTY","(Kosong)");
+define("EMAIL_INVALID","(Salah)");
+define("EMAIL_NOTEXIST","E-mel ini tidak wujud.");
+define("EMAIL_TAKEN","(Sudah digunakanه)");
 define("TRIBE_EMPTY","<li>لطفا نژاد را انتخاب کنید</li>");
-define("AGREE_ERROR","<li>باید قوانین بازی را خوانده و قبول کنید</li>");
-define("LOGIN_USR_EMPTY","نام را وارد کنید");
-define("LOGIN_PASS_EMPTY","رمز عبور را وارد کنید");
-define("EMAIL_ERROR","ایمیل وارد شده معتبر نیست");
-define("PASS_MISMATCH","رمز عبور هماهنگ نیست");
+define("AGREE_ERROR","<li>Anda mesti membaca dan menerima peraturan permainan</li>");
+define("LOGIN_USR_EMPTY","Masukkan nama");
+define("LOGIN_PASS_EMPTY","Masukkan kata laluan");
+define("EMAIL_ERROR","E-mel yang dimasukkan tidak sah");
+define("PASS_MISMATCH","Kata laluan tidak sepadan");
 define("ALLI_OWNER","لطفا قبل از حذف یک جانشین انتخاب کنید");
 define("SIT_ERROR","این جانشین قبلا انتخاب شده");
-define("USR_NT_FOUND","این نام وجود ندارد");
-define("USR_BAN","اکانت شما بازداشت شده");
-define("LOGIN_PW_ERROR","رمز عبور اشتباه است");
+define("USR_NT_FOUND","Ia tidak wujud");
+define("USR_BAN","Akaun anda telah ditangkap");
+define("LOGIN_PW_ERROR","Kata laluan tidak betul");
 define("WEL_TOPIC","توضیحات و اطلاعات ");
 define("ATAG_EMPTY","علامت خالی است");
-define("ANAME_EMPTY","نام خالی است");
+define("ANAME_EMPTY","Nama kosong");
 define("ATAG_EXIST","قبلا ثبت شده");
 define("ANAME_EXIST","قبلا ثبت شده");
 
@@ -128,11 +128,11 @@ define("HOURS","Masa");
 
 //WARSIM.TPL
 define("WARSIM","شبیه ساز جنگی");
-define("WARSIM_ATTACKER","حمله کننده");
-define("WARSIM_DEFENDER","مدافع");
-define("WARSIM_ETC","غیره");
+define("WARSIM_ATTACKER","Penyerang");
+define("WARSIM_DEFENDER","Pertahanan");
+define("WARSIM_ETC","Dan lain-lain");
 
-define("WARSIM_POP","جمعیت");
+define("WARSIM_POP","Penduduk");
 define("WARSIM_KATA","سطح هدف منجنیق");
 define("WARSIM_HEROPOWER","قهرمان (امتیاز حمله)");
 define("WARSIM_STONEMASON","سنگ تراشی");
@@ -289,19 +289,19 @@ define("NOTHING_HERE","Hoi Cari apa kat sini!");
 define("WE_LOOKED","Tiada apa-apa kat sini 404 bilik MAYAT JE ada .");
 
 //HEADER.TPL
-define("SERVER_TIME","زمان سرور:");
-define("HEADER_DAY","روز");
-define("HEADER_NIGHT","شب");
+define("SERVER_TIME","Waktu pelayan:");
+define("HEADER_DAY","Hari");
+define("HEADER_NIGHT","Malam");
 define("HEADER_GOLD","سکۀ طلای تراوین");
 define("HEADER_SILVER","سکۀ نقرۀ تراوین");
 define("HEADER_PLUS","پلاس");
 define("HEADER_PLUSMENU","منوی پلاس");
-define("HEADER_ADMIN","مدیریت");
+define("HEADER_ADMIN","Pengurusan");
 
 //NOTICES
-define("REPORT_SUBJECT","موضوع:");
-define("REPORT_ATTACKER","مهاجم");
-define("REPORT_DEFENDER","مدافع");
+define("REPORT_SUBJECT","Topic:");
+define("REPORT_ATTACKER","Penyerang");
+define("REPORT_DEFENDER","Pertahanan");
 define("REPORT_RESOURCES","منابع");
 define("REPORT_FROM_VIL","از دهکده‌ی");
 define("REPORT_FROM_ALLY","از اتحاد");
@@ -327,8 +327,8 @@ define("REPORT_SEND_REINF_TO","نیروی کمکی ارسال کرد به");
 
 //MASSMESSAGE.php
 define("MASS","متن پیغام");
-define("MASS_SUBJECT","موضوع:");
-define("MASS_COLOR","رنگ:");
+define("MASS_SUBJECT","Topic:");
+define("MASS_COLOR","Warna:");
 define("MASS_REQUIRED","همه قسمت ها الزامی است");
 define("MASS_UNITS","Images (units):");
 define("MASS_SHOWHIDE","Show/Hide");
@@ -336,7 +336,7 @@ define("MASS_READ","Read this: after adding smilie, you have to add left or righ
 define("MASS_CONFIRM","تایید");
 define("MASS_REALLY","آیا میخواهید ارسال کنید");
 define("MASS_ABORT","ارسال نشد");
-define("MASS_SENT","ارسال شد");
+define("MASS_SENT","Dihantar");
 
 
 ?>
