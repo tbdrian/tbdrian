@@ -90,16 +90,16 @@ define("CONTACT_SENT","Berjaya dihantar.");
 
 
 //ERRORS
-define("USRNM_EMPTY","(خالی است)");
-define("USRNM_TAKEN","(قبلا استفاده شده)");
-define("USRNM_SHORT","(حداقل ".USRNM_MIN_LENGTH." حرف)");
-define("USRNM_CHAR","(کاراکترهای اشتباه)");
-define("PW_EMPTY","(خالی است)");
-define("PW_SHORT","(حداقل ".PW_MIN_LENGTH." حرف)");
-define("PW_INSECURE","(رمز نامعتبر است، یک رمز دیگر انتخاب کنید)");
-define("EMAIL_EMPTY","(خالی است)");
-define("EMAIL_INVALID","(اشتباه است)");
-define("EMAIL_NOTEXIST","این ایمیل وجود ندارد.");
+define("USRNM_EMPTY","(Is empty)");
+define("USRNM_TAKEN","(Is already in use.)");
+define("USRNM_SHORT","(At least ".USRNM_MIN_LENGTH." Letter)");
+define("USRNM_CHAR","(The wrong characters)");
+define("PW_EMPTY","(Is empty)");
+define("PW_SHORT","(At least ".PW_MIN_LENGTH." Letter)");
+define("PW_INSECURE","(Invalid password, select a different password)");
+define("EMAIL_EMPTY","(Is empty)");
+define("EMAIL_INVALID","(Is wrong)");
+define("EMAIL_NOTEXIST","This email does not exist.");
 define("EMAIL_TAKEN","(قبلا استفاده شده)");
 define("TRIBE_EMPTY","<li>لطفا نژاد را انتخاب کنید</li>");
 define("AGREE_ERROR","<li>باید قوانین بازی را خوانده و قبول کنید</li>");
@@ -127,16 +127,16 @@ define("HOURS","Jam");
 
 
 //WARSIM.TPL
-define("WARSIM","شبیه ساز جنگی");
-define("WARSIM_ATTACKER","حمله کننده");
-define("WARSIM_DEFENDER","مدافع");
-define("WARSIM_ETC","غیره");
+define("WARSIM","Combat Simulator");
+define("WARSIM_ATTACKER","Attackers");
+define("WARSIM_DEFENDER","Defender");
+define("WARSIM_ETC","Etc.");
 
-define("WARSIM_POP","جمعیت");
-define("WARSIM_KATA","سطح هدف منجنیق");
-define("WARSIM_HEROPOWER","قهرمان (امتیاز حمله)");
-define("WARSIM_STONEMASON","سنگ تراشی");
-define("WARSIM_PALACE","قصر / اقامتگاه");
+define("WARSIM_POP","The population of");
+define("WARSIM_KATA","Target level of Catapult");
+define("WARSIM_HEROPOWER","Hero (Markah Serangan)");
+define("WARSIM_STONEMASON","Masonry");
+define("WARSIM_PALACE","Rumah / Residence");
 
 //BUILDINGS
 define("B1","هیزم شکن");
