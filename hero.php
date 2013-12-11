@@ -70,28 +70,28 @@ if($message->unread) {
 							<div class="contentTitle">&nbsp;</div> 
 
 <div class="contentContainer">
-								<div id="content" class="hero_editor"><h1 class="titleInHeader">قهرمان</h1>
+								<div id="content" class="hero_editor"><h1 class="titleInHeader">Wira</h1>
 
 <div class="contentNavi subNavi">
 				<div class="container normal">
 					<div class="background-start">&nbsp;</div>
 					<div class="background-end">&nbsp;</div>
-					<div class="content"><a href="hero_inventory.php"><span class="tabItem">خصوصیات</span></a></div>
+					<div class="content"><a href="hero_inventory.php"><span class="tabItem">Ciri-ciri</span></a></div>
 				</div>
 				<div class="container active">
 					<div class="background-start">&nbsp;</div>
 					<div class="background-end">&nbsp;</div>
-					<div class="content"><a href="hero.php"><span class="tabItem">ظاهر</span></a></div>
+					<div class="content"><a href="hero.php"><span class="tabItem">Penampilan</span></a></div>
 				</div>
 				<div class="container normal">
 					<div class="background-start">&nbsp;</div>
 					<div class="background-end">&nbsp;</div>
-					<div class="content"><a href="hero_adventure.php"><span class="tabItem">ماجراجویی‌ها</span></a></div>
+					<div class="content"><a href="hero_adventure.php"><span class="tabItem">Pengembaraan</span></a></div>
 				</div>
 				<div class="container normal">
 					<div class="background-start">&nbsp;</div>
 					<div class="background-end">&nbsp;</div>
-					<div class="content"><a href="hero_auction.php"><span class="tabItem">حراجی‌ها</span></a></div>
+					<div class="content"><a href="hero_auction.php"><span class="tabItem">Lelongan</span></a></div>
 				</div><div class="clear"></div>
 		</div><script type="text/javascript">
 					window.addEvent('domready', function()
@@ -145,7 +145,7 @@ if($herodetail['color']==4){
         <div class="container">
 			<div class="info" id="headProfile">
 				<div class="headline switchClosed">
-					<div class="title">سر</div>
+					<div class="title">Kepala</div>
 					<div class="clear"></div>
 				</div>
 				<div class="details" style="display: none; ">
@@ -159,7 +159,7 @@ if($herodetail['color']==4){
 			</div>
 					<div class="info" id="hairColor">
 				<div class="headline switchClosed">
-					<div class="title">رنگ مو</div>
+					<div class="title">Warna Rambut</div>
 					<div class="clear"></div>
 				</div>
 				<div class="details" style="display: none; ">
@@ -173,7 +173,7 @@ if($herodetail['color']==4){
 			</div>
 					<div class="info" id="hairStyle">
 				<div class="headline switchClosed">
-					<div class="title">مدل مو</div>
+					<div class="title">Gaya Rambut</div>
 					<div class="clear"></div>
 				</div>
 				<div class="details" style="display: none; ">
@@ -189,7 +189,7 @@ if($herodetail['color']==4){
 			</div>
 					<div class="info" id="ears">
 				<div class="headline switchClosed">
-					<div class="title">گوش ها</div>
+					<div class="title">Telinga</div>
 					<div class="clear"></div>
 				</div>
 				<div class="details" style="display: none; ">
@@ -204,7 +204,7 @@ if($herodetail['color']==4){
 			</div>
 					<div class="info" id="eyebrow">
 				<div class="headline switchClosed">
-					<div class="title">ابرو ها</div>
+					<div class="title">Kening</div>
 					<div class="clear"></div>
 				</div>
 				<div class="details" style="display: none; ">
@@ -219,7 +219,7 @@ if($herodetail['color']==4){
 			</div>
 					<div class="info" id="eyes">
 				<div class="headline switchClosed">
-					<div class="title">چشم ها</div>
+					<div class="title">Mata</div>
 					<div class="clear"></div>
 				</div>
 				<div class="details" style="display: none; ">
@@ -234,7 +234,7 @@ if($herodetail['color']==4){
 			</div>
 					<div class="info" id="nose">
 				<div class="headline switchClosed">
-					<div class="title">بینی</div>
+					<div class="title">Hidung</div>
 					<div class="clear"></div>
 				</div>
 				<div class="details" style="display: none; ">
@@ -249,7 +249,7 @@ if($herodetail['color']==4){
 			</div>
 					<div class="info" id="mouth">
 				<div class="headline switchClosed">
-					<div class="title">دهان</div>
+					<div class="title">Mulut</div>
 					<div class="clear"></div>
 				</div>
 				<div class="details" style="display: none; ">
@@ -263,7 +263,7 @@ if($herodetail['color']==4){
 			</div>
 					<div class="info" id="beard">
 				<div class="headline switchClosed">
-					<div class="title">ریش</div>
+					<div class="title">Misai/Janggut</div>
 					<div class="clear"></div>
 				</div>
 				<div class="details" style="display: none; ">
@@ -282,9 +282,9 @@ if($herodetail['color']==4){
 				</div>
 		<div class="options">
 		<form id="HeroEditorForm" method="post">
-		<button type="submit" value="save" name="save" id="btn_login" onClick="document.snd.attributes.value=screen.width+':'+screen.height;">
+		<button type="submit" value="simpan" name="save" id="btn_login" onClick="document.snd.attributes.value=screen.width+':'+screen.height;">
         <div class="button-container"><div class="button-position"><div class="btl"><div class="btr"><div class="btc"></div></div></div><div class="bml"><div class="bmr"><div class="bmc"></div></div></div><div class="bbl"><div class="bbr"><div class="bbc"></div></div></div></div>
-        <div class="button-contents">ذخیره</div></div>
+        <div class="button-contents">simpan</div></div>
         </button>
 		<input type="hidden" name="uid" value="<?php echo $session->uid; ?>" /><input type="hidden" name="HeroFace" value="<?php echo $herodetail['face']; ?>" /><input type="hidden" name="color" value="<?php echo $herodetail['color']; ?>" /><input type="hidden" name="HeroHair" value="<?php echo $herodetail['hair']; ?>" /><input type="hidden" name="HeroEar" value="<?php echo $herodetail['ear']; ?>" /><input type="hidden" name="HeroEyebrow" value="<?php echo $herodetail['eyebrow']; ?>" /><input type="hidden" name="HeroEye" value="<?php echo $herodetail['eye']; ?>" /><input type="hidden" name="HeroNose" value="<?php echo $herodetail['nose']; ?>" /><input type="hidden" name="HeroMouth" value="<?php echo $herodetail['mouth']; ?>" /><input type="hidden" name="HeroBeard" value="<?php echo $herodetail['beard']; ?>" />
         </form>
