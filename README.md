@@ -6,4 +6,4 @@ korang tolong translate kan bahasa PERSIAN aka bahasa Arab dari belah mana aku p
 ni adalah script tabian terbaru v4. script ni diberi oleh HEXRUT.
 jadi mohon translatekan ye. ;)
 
-Translate dari bahasa persian ke bahasa melayu
+Translate dari bahasa persian ke bahasa melayu ;d
