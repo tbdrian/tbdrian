@@ -16,48 +16,49 @@ class Automation {
         public function procResType($ref) {
         global $session;
         switch($ref) {
-            case 1: $build = "هیزم شکن"; break;
-            case 2: $build = "آجر سازی"; break;
-            case 3: $build = "معدن آهن"; break;
-            case 4: $build = "گندم زار"; break;
-            case 5: $build = "چوب بری"; break;
-            case 6: $build = "آجرپزی"; break;
-            case 7: $build = "ذوب آهن"; break;
-            case 8: $build = "آسیاب"; break;
-            case 9: $build = "نانوایی"; break;
-            case 10: $build = "انبار"; break;
-            case 11: $build = "انبار غذا"; break;
-            case 12: $build = "آهنگری"; break;
-            case 14: $build = "میدان تمرین"; break;
-            case 15: $build = "ساختمان اصلی"; break;
-            case 16: $build = "اردوگاه"; break;
-            case 17: $build = "بازار"; break;
-            case 18: $build = "سفارت"; break;
-            case 19: $build = "سربازخانه"; break;
-            case 20: $build = "اصطبل"; break;
-            case 21: $build = "کارگاه"; break;
-            case 22: $build = "دارالفنون"; break;
-            case 23: $build = "مخفیگاه"; break;
-            case 24: $build = "تالار"; break;
-            case 25: $build = "اقامتگاه"; break;
-            case 26: $build = "قصر"; break;
-            case 27: $build = "خزانه"; break;
-            case 28: $build = "تجارت خانه"; break;
-            case 29: $build = "پادگان بزرگ"; break;
-            case 30: $build = "اصطبل بزرگ"; break;
-            case 31: $build = "دیوار شهر"; break;
-            case 32: $build = "دیوار گلی"; break;
-            case 33: $build = "پرچین"; break;
-            case 34: $build = "سنگ تراشی"; break;
-            case 35: $build = "آبجوسازی"; break;
-            case 36: $build = "تله سازی"; break;
-            case 37: $build = "عمارت قهرمان"; break;
-            case 38: $build = "انبار بزرگ"; break;
-            case 39: $build = "انبار غذای بزرگ"; break;
-            case 40: $build = "شگفتی های جهان"; break;
-            case 41: $build = "آبخوری اسب ها"; break;
-            case 42: $build = "کارگاه بزرگ"; break;
-            default: $build = "Error"; break;
+            case 1: $build = "Kawasan Pembalakan"; break;
+            case 2: $build = "Kuari Tanah Liat"; break;
+            case 3: $build = "Lombong Bijih Besi"; break;
+            case 4: $build = "Ladang"; break;
+            case 5: $build = "Kilang Papan"; break;
+            case 6: $build = "Kilang Bata"; break;
+            case 7: $build = "Faundri Besi"; break;
+            case 8: $build = "Bijian"; break;
+            case 9: $build = "kilang roti"; break;
+            case 10: $build = "Gudang"; break;
+            case 11: $build = "Jelapang"; break;
+            case 12: $build = "Kedai Senjata"; break;
+            case 13: $build = "Kedai Perisai"; break;
+            case 14: $build = "Dataran Kejohanan"; break;
+            case 15: $build = "Bangunan Utama"; break;
+            case 16: $build = "Titik Perhimpunan"; break;
+            case 17: $build = "Pasaran"; break;
+            case 18: $build = "Kedutaan"; break;
+            case 19: $build = "Berek"; break;
+            case 20: $build = "Kandang Kuda"; break;
+            case 21: $build = "Bengkel"; break;
+            case 22: $build = "Akedemi"; break;
+            case 23: $build = "Gua"; break;
+            case 24: $build = "Dewan Perbandaran"; break;
+            case 25: $build = "Kediaman"; break;
+            case 26: $build = "Istana"; break;
+            case 27: $build = "Perbendaharaan"; break;
+            case 28: $build = "Pejabat Dagangan"; break;
+            case 29: $build = "Berek Besar"; break;
+            case 30: $build = "Kandang Kuda Besar"; break;
+            case 31: $build = "Tembok Bandar"; break;
+            case 32: $build = "Tembok"; break;
+            case 33: $build = "Pagar Kubu"; break;
+            case 34: $build = "Kedai Tukang Batu"; break;
+            case 35: $build = "Kilang Bir"; break;
+            case 36: $build = "Trapper"; break;
+            case 37: $build = "Hero's Mansion"; break;
+            case 38: $build = "Gudang Besar"; break;
+            case 39: $build = "Jelapang Besar"; break;
+            case 40: $build = "Keajaiban Dunia"; break;
+            case 41: $build = "Tempat Minuman Kuda"; break;
+            case 42: $build = "Bengkel Besar"; break;
+            default: $build = "Tiada apa-apa lagi.. keh3"; break;
         }
         return $build;
     }
@@ -1123,23 +1124,23 @@ class Automation {
             if ($type=='3'){
                 if ($rams!='0'){
                     if (isset($empty)){
-                        $info_ram = "".$ram_pic.", دیوار قبلا <b>تخریب شده</b>.";
+                        $info_ram = "".$ram_pic.",Dinding telah dirobohkan </b>.";
                     } else
 
                       if ($battlepart[8]>$battlepart[7]){
-                            $info_ram = "".$ram_pic.", دیوار <b>تخریب شد</b>.";
+                            $info_ram = "".$ram_pic.",Dinding telah dirobohkan </b>.";
                             $database->setVillageLevel($data['to'],"f".$wallid."",'0');
                             $database->setVillageLevel($data['to'],"f".$wallid."t",'0');
                             $pop=$this->recountPop($data['to']);
 
                     }elseif ($battlepart[8]==0){
                     
-                        $info_ram = "".$ram_pic.",به دیوار آسیبی نرسید.";
+                        $info_ram = "".$ram_pic.",Dinding itu tidak rosak.";
                     }else{
             
                         $demolish=$battlepart[8]/$battlepart[7];
                         $totallvl = round(sqrt(pow(($walllevel+0.5),2)-($battlepart[8]*8)));
-                    $info_ram = "".$ram_pic.",دیوار از سطح <b>".$walllevel."</b> به سطح <b>".$totallvl."</b> آسیب دید.";
+                    $info_ram = "".$ram_pic.",Permukaan dinding <b>".$walllevel."</b> tahap <b>".$totallvl."</b> Rosak.";
                             $database->setVillageLevel($data['to'],"f".$wallid."",$totallvl);
 
                     }                  
@@ -1153,7 +1154,7 @@ class Automation {
         if($toF['pop']<=0)
         {
               
-                 $info_cat = ",".$catp_pic.", روستا قبلا <b>تخریب شده</b>.";
+                 $info_cat = ",".$catp_pic.",Kampung itu dimusnahkan sebelum </b>.";
         }
         else
         {
@@ -1218,7 +1219,7 @@ class Automation {
                 $needed_cata = round((($battlepart[5] * (pow($tblevel,2) + $tblevel + 1)) / (8 * (round(200 * pow(1.0205,$battlepart[6]))/200) / (1 * $bid34[$stonemason]['attri']/100))) + 0.5);
                 if ($battlepart[4]>$needed_cata)
                 {
-                        $info_cat = "".$tbgid.",".$this->procResType($tbgid)." <b>تخریب شد</b>.";
+                        $info_cat = "".$tbgid.",".$this->procResType($tbgid)." <b>dimusnahkan</b>.";
 						
 				$database->setVillageLevel($data['to'],"f".$tbid."",'0');
                     if($tbid>=19) { $database->setVillageLevel($data['to'],"f".$tbid."t",'0'); }
@@ -1276,7 +1277,7 @@ class Automation {
                 }
                 elseif ($battlepart[4]==0)
                 {    
-					$info_cat = "".$tbgid.",به ".$this->procResType($tbgid)." آسیبی نرسید.";
+					$info_cat = "".$tbgid.",untuk ".$this->procResType($tbgid)."Tidak rosak.";
 					}
                 else
                 {   
@@ -1291,7 +1292,7 @@ class Automation {
 					
                                
             
-                    $info_cata= " از سطح <b>".$tblevel."</b> به سطح <b>".$totallvl."</b> آسیب دید.";
+                    $info_cata= " tahap <b>".$tblevel."</b> tahap <b>".$totallvl."</b> Rosak.";
                   $buildarray = $GLOBALS["bid".$tbgid];
                         if ($tbgid==10 || $tbgid==38) {
                             $tsql=mysql_query("select `maxstore`,`maxcrop` from ".TB_PREFIX."vdata where wref=".$data['to']."");
@@ -1372,7 +1373,7 @@ class Automation {
                 $needed_cata = round((($battlepart[5] * (pow($tblevel,2) + $tblevel + 1)) / (8 * (round(200 * pow(1.0205,$battlepart[6]))/200) / (1 * $bid34[$stonemason]['attri']/100))) + 0.5);
                 if (($battlepart[4]/2)>$needed_cata)
                 {
-					$info_cat = "".$tbgid.", ".$this->procResType($tbgid)." <b>تخریب شد</b>.";
+					$info_cat = "".$tbgid.", ".$this->procResType($tbgid)." <b>dimusnahkan</b>.";
                     $database->setVillageLevel($data['to'],"f".$tbid."",'0');
                     if($tbid>=19) { $database->setVillageLevel($data['to'],"f".$tbid."t",'0'); }
                     $buildarray = $GLOBALS["bid".$tbgid];
@@ -1429,17 +1430,17 @@ class Automation {
                 }
                 elseif ($battlepart[4]==0)
                 {                        
-                    $info_cat = "".$tbgid.",به ".$this->procResType($tbgid)." آسیبی نرسید.";
+                    $info_cat = "".$tbgid.",untuk ".$this->procResType($tbgid)." Tidak Rosak.";
                 }
                 else
                 {                
                     $demolish=($battlepart[4]/2)/$needed_cata;
                     $totallvl = round(sqrt(pow(($tblevel+0.5),2)-(($battlepart[4]/2)*8)));
                     if ($tblevel==$totallvl) 
-                        $info_cata=" تخریب نشد.";
+                        $info_cata=" Telah dimusnahkan.";
                     else
                     {
-                        $info_cata=" از سطح <b>".$tblevel."</b> به سطح <b>".$totallvl."</b> آسیب دید.";
+                        $info_cata=" thap <b>".$tblevel."</b> tahap <b>".$totallvl."</b> Rosak.";
                         $buildarray = $GLOBALS["bid".$tbgid];
                         if ($tbgid==10 || $tbgid==38) {
                             $tsql=mysql_query("select `maxstore`,`maxcrop` from ".TB_PREFIX."vdata where wref=".$data['to']."");
@@ -1518,8 +1519,8 @@ class Automation {
                 $needed_cata = round((($battlepart[5] * (pow($tblevel,2) + $tblevel + 1)) / (8 * (round(200 * pow(1.0205,$battlepart[6]))/200) / (1 * $bid34[$stonemason]['attri']/100))) + 0.5);
                 if (($battlepart[4]/2)>$needed_cata)
                 {
-					$info_cat .= "<br><tbody class=\"goods\"><tr><th>اطلاعات</th><td colspan=\"11\">
-                    <img class=\"unit u".$tbgid."\" src=\"img/x.gif\" alt=\"منجنیق\" title=\"منجنیق\" /> ".$this->procResType($tbgid)." <b>تخریب شد</b>.</td></tr></tbody>";
+					$info_cat .= "<br><tbody class=\"goods\"><tr><th>diberitahu</th><td colspan=\"11\">
+                    <img class=\"unit u".$tbgid."\" src=\"img/x.gif\" alt=\"Tarbil\" title=\"Tarbil\" /> ".$this->procResType($tbgid)." <b>dimusnahkan</b>.</td></tr></tbody>";
                     $database->setVillageLevel($data['to'],"f".$tbid."",'0');
                     if($tbid>=19) { $database->setVillageLevel($data['to'],"f".$tbid."t",'0'); }
                     $buildarray = $GLOBALS["bid".$tbgid];
@@ -1576,15 +1577,15 @@ class Automation {
                     }
                 }
                 elseif ($battlepart[4]==0){                        
-                    $info_cat .= "<br><tbody class=\"goods\"><tr><th>اطلاعات</th><td colspan=\"11\">
-                    <img class=\"unit u".$tbgid."\" src=\"img/x.gif\" alt=\"منجنیق\" title=\"منجنیق\" /> به ".$this->procResType($tbgid)." آسیبی نرسید.</td></tr></tbody>";
+                    $info_cat .= "<br><tbody class=\"goods\"><tr><th>diberitahuت</th><td colspan=\"11\">
+                    <img class=\"unit u".$tbgid."\" src=\"img/x.gif\" alt=\"Tarbil\" title=\"dari\" /> به ".$this->procResType($tbgid)." tidak rosak.</td></tr></tbody>";
                 }else{                
                     $demolish=($battlepart[4]/2)/$needed_cata;
                     $totallvl = round(sqrt(pow(($tblevel+0.5),2)-(($battlepart[4]/2)*8)));
                     if ($tblevel==$totallvl){
                         $info_cata=" تخریب نشد.";
 					}else{
-$info_cata=" از سطح <b>".$tblevel."</b> به سطح <b>".$totallvl."</b> آسیب دید.";
+$info_cata=" از سطح <b>".$tblevel."</b> به سطح <b>".$totallvl."</b> Rosak.";
                         $buildarray = $GLOBALS["bid".$tbgid];
                         if ($tbgid==10 || $tbgid==38) {
                             $tsql=mysql_query("select `maxstore`,`maxcrop` from ".TB_PREFIX."vdata where wref=".$data['to']."");
@@ -1606,7 +1607,7 @@ $info_cata=" از سطح <b>".$tblevel."</b> به سطح <b>".$totallvl."</b> آ
                     }
                         
                     $info_cat .= "<br><tbody class=\"goods\"><tr><th>اطلاعات</th><td colspan=\"11\">
-                    <img class=\"unit u".$tbgid."\" src=\"img/x.gif\" alt=\"منجنیق\" title=\"منجنیق\" /> ".$this->procResType($tbgid).$info_cata."</td></tr></tbody>";
+                    <img class=\"unit u".$tbgid."\" src=\"img/x.gif\" alt=\"Tarbil\" title=\"Tarbil\" /> ".$this->procResType($tbgid).$info_cata."</td></tr></tbody>";
                     $database->setVillageLevel($data['to'],"f".$tbid."",$totallvl);
                 }
             }
@@ -1624,7 +1625,7 @@ $info_cata=" از سطح <b>".$tblevel."</b> به سطح <b>".$totallvl."</b> آ
                 for ($i=18; $i<39; $i++){
                     if ($database->getFieldLevel($data['to'],"".$i."t")==25 or $database->getFieldLevel($data['to'],"".$i."t")==26){
                         $nochiefing='1';
-                            $info_chief = "".$chief_pic.", قصر یا اقامتگاه هنوز سالم است.";
+                            $info_chief = "".$chief_pic.", Istana atau kediaman masih kekal.";
                     }
                 }
                 if(!isset($nochiefing)){
@@ -1634,12 +1635,12 @@ $info_cata=" از سطح <b>".$tblevel."</b> به سطح <b>".$totallvl."</b> آ
                     }
                     //loyalty is more than 0
                     if(($toF['loyalty']-$rand)>0){
-                        $info_chief = "".$chief_pic.", وفاداری دهکده از <b>".$toF['loyalty']."</b> به <b>".($toF['loyalty']-$rand)."</b> کاهش یافت.";
+                        $info_chief = "".$chief_pic.", وفاداری دهکده از <b>".$toF['loyalty']."</b> به <b>".($toF['loyalty']-$rand)."</b> Merosot.";
                         $database->setVillageField($data['to'],loyalty,($toF['loyalty']-$rand));
                     } else {
                     //you took over the village
                         $artifact = $database->getOwnArtefactInfo($data['to']);
-                        $info_chief = "".$chief_pic.", ساکنین دهکده به امپراطوری شما <b>ملحق شدند</b>.";
+                        $info_chief = "".$chief_pic.", Penduduk kampung <b>menyertai empayar anda</b>.";
                         if ($artifact['vref'] == $data['to']){
                          $database->claimArtefact($data['to'],$data['to'],$database->getVillageField($data['from'],"owner"));
                         }
@@ -1673,7 +1674,7 @@ $info_cata=" از سطح <b>".$tblevel."</b> به سطح <b>".$totallvl."</b> آ
                     }
                 }
             } else {
-                $info_chief = "".$chief_pic.", شما نمی توانید پایتخت را تصرف کنید.";
+                $info_chief = "".$chief_pic.", Anda boleh mengambil modal.";
             }
         }
         
@@ -1720,17 +1721,17 @@ $info_cata=" از سطح <b>".$tblevel."</b> به سطح <b>".$totallvl."</b> آ
 								$o_loyalty=$dbo['loyalty']; 
 								$a_uid = $database->getVillageField($data['from'],"owner");
 								if ($o_conqured=='0' or $o_conqured!=$data['from']) { 
-									mysql_query("UPDATE ".TB_PREFIX."odata SET `conqured`='".$data['from']."', `owner`='".$a_uid."', `name`='آبادی تسخیر شده', `lastupdated`='".time()."' WHERE `wref`='".$data['to']."' "); 
+									mysql_query("UPDATE ".TB_PREFIX."odata SET `conqured`='".$data['from']."', `owner`='".$a_uid."', `name`='Kampung kurungan', `lastupdated`='".time()."' WHERE `wref`='".$data['to']."' "); 
 									mysql_query("UPDATE ".TB_PREFIX."wdata SET `occupied`='1' WHERE `id`='".$data['to']."' "); 
-									$info_chief = "".$hero_pic.", قهرمان شما این آبادی را تسخیر کرد."; 
+									$info_chief = "".$hero_pic.", Wira anda menakluk kampung."; 
 								} elseif($o_conqured==$data['from']) { 
-									$info_chief = "".$hero_pic.", قهرمان شما قبلا این آبادی را تسخیر کرده."; 
+									$info_chief = "".$hero_pic.", Wira anda telah menakluk tanah ini."; 
 								} 
 							} else {                                     
-								$info_chief = "".$hero_pic.", برای تسخیر این آبادی به عمارت قهرمان سطح ".$needed_hero_mansion_level." نیاز است."; 
+								$info_chief = "".$hero_pic.", Rumah agam wira untuk menakluk oasis ".$needed_hero_mansion_level." Diperlukan."; 
 							}
 						} else { 
-							$info_chief = "".$hero_pic.", در حال حاضر این دهکده 3 آبادی تسخیر شده دارد."; 
+							$info_chief = "".$hero_pic.", Sekarang kampung ini telah dijajah oleh 3 kampung-kampung lain."; 
 						} 
 					}
 			}else{
@@ -1738,7 +1739,7 @@ $info_cata=" از سطح <b>".$tblevel."</b> به سطح <b>".$totallvl."</b> آ
 				if ($artifact['vref'] == $data['to']){ 
 					if($database->canClaimArtifact($artifact['vref'],$artifact['size'])) { 
 						$database->claimArtefact($data['to'],$data['to'],$database->getVillageField($data['from'],"owner")); 
-						$info_chief = "".$hero_pic.", کتیبه توسط قهرمان شما دزدیده شد.";   
+						$info_chief = "".$hero_pic.", Batu bersurat itu telah dicuri oleh wira anda.";   
 					}else{ 
 						$info_chief = "";
 					} 
@@ -1750,7 +1751,7 @@ $info_cata=" از سطح <b>".$tblevel."</b> به سطح <b>".$totallvl."</b> آ
 				$info_spy = "".$spy_pic.",
 <tbody><tr><td class=\"empty\" colspan=\"12\"></td></tr></tbody>
 <tbody class=\"goods\">
-	<tr><th>منابع</th><td colspan=\"11\"><div class=\"res\"><div class=\"rArea\"><img class=\"r1\" src=\"img/x.gif\" title=\"چوب\">".round($totwood)."</div><div class=\"rArea\"><img class=\"r2\" src=\"img/x.gif\" title=\"خشت\">".round($totclay)."</div><div class=\"rArea\"><img class=\"r3\" src=\"img/x.gif\" title=\"آهن\">".round($totiron)."</div><div class=\"rArea\"><img class=\"r4\" src=\"img/x.gif\" title=\"گندم\">".round($totcrop)."</div></div></td></tr></tbody>
+	<tr><th>منابع</th><td colspan=\"11\"><div class=\"res\"><div class=\"rArea\"><img class=\"r1\" src=\"img/x.gif\" title=\"kayu\">".round($totwood)."</div><div class=\"rArea\"><img class=\"r2\" src=\"img/x.gif\" title=\"خشت\">".round($totclay)."</div><div class=\"rArea\"><img class=\"r3\" src=\"img/x.gif\" title=\"آهن\">".round($totiron)."</div><div class=\"rArea\"><img class=\"r4\" src=\"img/x.gif\" title=\"گندم\">".round($totcrop)."</div></div></td></tr></tbody>
 <tbody class=\"goods\"><tr><th></th><td colspan=\"11\"><div class=\"res\"><div class=\"rArea\"><img class=\"gebIcon g23Icon\" src=\"img/x.gif\" title=\"مخفیگاه\">".$bid23[$crannylevel]['attri']."</div></div></td></tr></tbody>";
 				
 			}else if($data['spy'] == 2){
