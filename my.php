@@ -154,14 +154,14 @@ define("CLAY","Tanah Liat");
 define("IRON","Besi");
 define("CROP","Tanaman");
 define("LEVEL","Tahap­");
-define("CROP_COM",CROP." مصرفی");
+define("CROP_COM",CROP."Boleh Digunakan");
 define("PER_HR","per jam");
 define("PROD_HEADER","Produksi sejam");
 define("MULTI_V_HEADER","Kampung");
 define("ANNOUNCEMENT","Pengumuman");
 define("GO2MY_VILLAGE","Kembali ke kampung");
 define("VILLAGE_CENTER","Pusat kampung");
-define("FINISH_GOLD","آِیا میخواهید کارهای این دهکده را با 2طلا به اتمام برسانید؟");
+define("FINISH_GOLD","Adakah anda ingin menggunakan 2 emas untuk menyiapkan tugasan di kampung ini?");
 define("WAITING_LOOP","(Turutan pembinaan)");
 define("HRS","(masa)");
 define("DONE_AT","Siap pada");
@@ -274,69 +274,69 @@ define("STARTED"," Pelayan bermula ". round((time()-COMMENCE)/86400) ." hari yan
 
 
 //ATTACKS ETC.
-define("TROOP_MOVEMENTS","حرکت لشکریان:");
-define("ARRIVING_REINF_TROOPS","رسیدن نیروی کمکی");
-define("ARRIVING_REINF_TROOPS_SHORT","نیروی کمکی");
-define("OWN_ATTACKING_TROOPS","حملات از دهکده");
-define("ARRIVING_ATTACKING_TROOPS","حرکت نیروهای دشمن");
-define("ATTACK","حمله");
-define("OWN_REINFORCING_TROOPS","نیروی کمکی در دهکده");
-define("TROOPS_DORF","لشکریان:");
+define("TROOP_MOVEMENTS","Pergerakan Askar");
+define("ARRIVING_REINF_TROOPS","Kehadiran Bantuan");
+define("ARRIVING_REINF_TROOPS_SHORT","Bantuan");
+define("OWN_ATTACKING_TROOPS","Menyerang Kampung");
+define("ARRIVING_ATTACKING_TROOPS","Pergerakan Askar Musuh");
+define("ATTACK","Serang");
+define("OWN_REINFORCING_TROOPS","Bantuan di Kampung");
+define("TROOPS_DORF","Askar :");
 
 
 //404.php
-define("NOTHING_HERE","اینجا چیزی موجود نیست!");
-define("WE_LOOKED","ما 404 بار نگاه کردیم اما هیچی پیدا نکردیم!");
+define("NOTHING_HERE","Tiada apa di sini!");
+define("WE_LOOKED","We looked 404 times but did not find anything!");
 
 //HEADER.TPL
-define("SERVER_TIME","زمان سرور:");
-define("HEADER_DAY","روز");
-define("HEADER_NIGHT","شب");
-define("HEADER_GOLD","سکۀ طلای تراوین");
-define("HEADER_SILVER","سکۀ نقرۀ تراوین");
-define("HEADER_PLUS","پلاس");
-define("HEADER_PLUSMENU","منوی پلاس");
-define("HEADER_ADMIN","مدیریت");
+define("SERVER_TIME","Time Server:");
+define("HEADER_DAY","Siang");
+define("HEADER_NIGHT","Malam");
+define("HEADER_GOLD","Emas onlineن");
+define("HEADER_SILVER","Perak online");
+define("HEADER_PLUS","VIP");
+define("HEADER_PLUSMENU","Menu VIP");
+define("HEADER_ADMIN","Admin");
 
 //NOTICES
-define("REPORT_SUBJECT","موضوع:");
-define("REPORT_ATTACKER","مهاجم");
-define("REPORT_DEFENDER","مدافع");
-define("REPORT_RESOURCES","منابع");
-define("REPORT_FROM_VIL","از دهکده‌ی");
-define("REPORT_FROM_ALLY","از اتحاد");
-define("REPORT_SENT","فرستاده شده");
-define("REPORT_SENDER","فرستنده");
-define("REPORT_RECEIVER","گیرنده");
-define("REPORT_AT","در");
-define("REPORT_TO","به");
-define("REPORT_SEND_RES","منابع می‌فرستد");
-define("REPORT_DEL_BTN","حذف گزارش");
-define("REPORT_DEL_QST","واقعاً گزارش حذف شود؟");
-define("REPORT_WARSIM","شبیه ساز جنگی");
-define("REPORT_ATK_AGAIN","تکرار حمله");
-define("REPORT_TROOPS","لشکریان");
-define("REPORT_REINF","نیروی کمکی");
-define("REPORT_CASUALTIES","تلفات");
-define("REPORT_INFORMATION","اطلاعات");
-define("REPORT_BOUNTY","غنائم");
-define("REPORT_CLOCK","مدت زمان");
-define("REPORT_UPKEEP","غذای مصرفی");
-define("REPORT_PER_HOURS","در ساعت");
-define("REPORT_SEND_REINF_TO","نیروی کمکی ارسال کرد به");
+define("REPORT_SUBJECT","Topik:");
+define("REPORT_ATTACKER","Penyerang");
+define("REPORT_DEFENDER","Pertahanan");
+define("REPORT_RESOURCES","Sumber");
+define("REPORT_FROM_VIL","Kampung");
+define("REPORT_FROM_ALLY","Pakatan");
+define("REPORT_SENT","Dihantar");
+define("REPORT_SENDER","Penghantar");
+define("REPORT_RECEIVER","Penerima");
+define("REPORT_AT","Pada");
+define("REPORT_TO","Kepada");
+define("REPORT_SEND_RES","Hantar Bantuan");
+define("REPORT_DEL_BTN","Memadam Laporan");
+define("REPORT_DEL_QST","DIlaporkan؟");
+define("REPORT_WARSIM","Simulasi Perlawanan");
+define("REPORT_ATK_AGAIN","Serangan Semula");
+define("REPORT_TROOPS","Askar");
+define("REPORT_REINF","Bantuan");
+define("REPORT_CASUALTIES","Kerugian");
+define("REPORT_INFORMATION","Maklumat");
+define("REPORT_BOUNTY","Trofi");
+define("REPORT_CLOCK","Masa");
+define("REPORT_UPKEEP","Makanan Digunakan");
+define("REPORT_PER_HOURS","Setiap jam");
+define("REPORT_SEND_REINF_TO","Bantuan dihantar ke");
 
 //MASSMESSAGE.php
-define("MASS","متن پیغام");
-define("MASS_SUBJECT","موضوع:");
-define("MASS_COLOR","رنگ:");
-define("MASS_REQUIRED","همه قسمت ها الزامی است");
+define("MASS","Mesej");
+define("MASS_SUBJECT","Topik:");
+define("MASS_COLOR","warna:");
+define("MASS_REQUIRED","Semua bahagian hendaklah di isi");
 define("MASS_UNITS","Images (units):");
 define("MASS_SHOWHIDE","Show/Hide");
 define("MASS_READ","Read this: after adding smilie, you have to add left or right after number otherwise image will won't work");
-define("MASS_CONFIRM","تایید");
-define("MASS_REALLY","آیا میخواهید ارسال کنید");
-define("MASS_ABORT","ارسال نشد");
-define("MASS_SENT","ارسال شد");
+define("MASS_CONFIRM","Pengesahan");
+define("MASS_REALLY","Adakah anda ingin menghantar?");
+define("MASS_ABORT","Batalkan");
+define("MASS_SENT","Hantar");
 
 
 ?>
